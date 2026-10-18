@@ -146,13 +146,14 @@ def prepare(request):
 
 def run_preflight(request):
     import torch
-    from datasets import DatasetDict, load_from_disk
+    from datasets import DatasetDict, concatenate_datasets, load_from_disk
     from llamafactory.train.tuner import run_exp
     from transformers import TrainerCallback
 
     output = Path(request["output"])
     config = copy.deepcopy(request["config"])
-    data = load_from_disk(config["tokenized_path"])["train"]
+    prepared = load_from_disk(config["tokenized_path"])
+    data = concatenate_datasets([prepared[split] for split in ("train", "validation") if split in prepared])
     key = "input_ids" if config["stage"] == "sft" else "chosen_input_ids"
     if config["stage"] == "sft":
         index = max(range(len(data)), key=lambda i: len(data[i][key]))
@@ -167,6 +168,9 @@ def run_preflight(request):
         max_steps=1,
         output_dir=str(output / "preflight-adapter"),
         save_strategy="no",
+        do_eval=False,
+        eval_strategy="no",
+        eval_dataset=None,
     )
     runtime_model = {}
 
@@ -234,9 +238,10 @@ def run_inference(request):
     if request["protocol"]["system_mode"] == "empty" and (system or engine.template.default_system):
         raise ValueError("Empty-system evaluation detected an injected default system prompt")
 
-    def generate(messages, seed):
+    def generate(messages, seed, system_override=None):
         set_seed(seed)
         decoding = request["decoding"]
+        active_system = system if system_override is None else system_override
         kwargs, _ = HuggingfaceEngine._process_args(
             engine.model,
             engine.tokenizer,
@@ -244,7 +249,7 @@ def run_inference(request):
             engine.template,
             engine.generating_args,
             copy.deepcopy(messages),
-            system,
+            active_system,
             input_kwargs=copy.deepcopy(decoding),
         )
         prompt_ids = kwargs["inputs"][0].tolist()
@@ -260,7 +265,7 @@ def run_inference(request):
             "rendered_prompt": engine.tokenizer.decode(prompt_ids, skip_special_tokens=False),
             "output_tokens": len(tokens),
             "finish_reason": "stop" if finished else "length",
-            "system": system,
+            "system": active_system,
             "template_default_system": engine.template.default_system,
         }
 

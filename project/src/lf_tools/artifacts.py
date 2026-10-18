@@ -146,7 +146,9 @@ def factory_receipt(runtime):
 def launch_worker(bundle, operation, request, log):
     env = os.environ.copy()
     src = Path(__file__).resolve().parents[1]
-    env["PYTHONPATH"] = os.pathsep.join([str(src), str(bundle.runtime.factory_root / "src")])
+    env["PYTHONPATH"] = os.pathsep.join(
+        [str(src), str(bundle.runtime.factory_root / "src"), *([env["PYTHONPATH"]] if env.get("PYTHONPATH") else [])]
+    )
     env.update(WANDB_DISABLED="true", HF_HUB_OFFLINE="1", TRANSFORMERS_OFFLINE="1", TOKENIZERS_PARALLELISM="false")
     with Path(log).open("a", encoding="utf-8") as stream:
         process = subprocess.Popen(

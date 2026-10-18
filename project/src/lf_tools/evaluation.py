@@ -75,7 +75,7 @@ def validate_cases(cases):
         users = case.get("users")
         if not isinstance(users, list) or not users or any(not isinstance(u, str) or not u.strip() for u in users):
             raise ValueError("Cases must contain a nonempty list of user turns")
-        signature = digest(users)
+        signature = digest([users, case["sessions"]]) if case.get("sessions") else digest(users)
         if signature in signatures:
             raise ValueError("Duplicate evaluation scenario")
         ids.add(case["id"])
@@ -85,17 +85,38 @@ def validate_cases(cases):
             "unseen_fact",
             "not_applicable",
             "unverified_exposure",
+            "unknown",
         }:
             raise ValueError("Unknown knowledge exposure classification")
+        sessions = case.get("sessions", [])
+        if sessions:
+            from persona_data.loom.contracts import AgentContext, BehaviorPack
+            pack = BehaviorPack.model_validate(case["behavior_pack"])
+            if pack.fingerprint != case["behavior_sha256"]:
+                raise ValueError("Evaluation BehaviorPack hash mismatch")
+            starts = [s["start_turn"] for s in sessions]
+            if starts != sorted(set(starts)) or starts[0] != 0 or starts[-1] >= len(users):
+                raise ValueError("Invalid session boundaries")
+            for session in sessions:
+                AgentContext.model_validate(session["context"])
+                if any(t < 0 or t >= session["start_turn"] for t in session.get("memory_from_turns", [])):
+                    raise ValueError("Session memory includes a future turn")
 
 
 def check_case_overlap(cases, dataset, threshold=0.9):
     rows = [r for r in read_rows(Path(dataset) / "records.jsonl") if r["split"] == "train"]
     retired = set(read_json(Path(dataset) / "retired-cases.json"))
+    trained_evidence = {ref for row in rows for ref in row.get("evidence_ids", [])}
     cases_rows = []
     for case in cases:
         if case["id"] in retired:
             raise ValueError(f"Evaluation case retired into training: {case['id']}")
+        if case.get("sessions") and case.get("evidence_ids"):
+            refs = set(case["evidence_ids"])
+            if case.get("knowledge_status") == "known_fact_new_context" and not refs <= trained_evidence:
+                raise ValueError("Closed-book fact has not appeared in the training release: " + case["id"])
+            if case.get("knowledge_status") == "unseen_fact" and refs & trained_evidence:
+                raise ValueError("Supposedly unseen fact appeared in training: " + case["id"])
         cases_rows.append(
             {
                 "id": "eval:" + case["id"],
@@ -151,7 +172,17 @@ def execute_cases(request, generate):
     cursor, rows = 0, []
     for case in cases:
         messages = []
+        previous_pairs = {}
+        sessions = {s["start_turn"]: s for s in case.get("sessions", [])}
+        effective_system = None
         for turn, user in enumerate(case["users"]):
+            if turn in sessions:
+                from persona_data.loom.contracts import BehaviorPack
+                from persona_data.loom.evaluation import session_system
+                effective_system = session_system(
+                    case, sessions[turn], previous_pairs, request["protocol"]["system_mode"],
+                    BehaviorPack.model_validate(case["behavior_pack"]))
+                messages = []
             messages.append({"role": "user", "content": user})
             seed = (request["decoding_seed"] + int(digest([case["id"], turn])[:8], 16)) % (2**32)
             identity = {
@@ -161,6 +192,8 @@ def execute_cases(request, generate):
                 "messages": copy.deepcopy(messages),
                 "seed": seed,
             }
+            if effective_system is not None:
+                identity["agent_system"] = effective_system
             if cursor < len(saved):
                 row = saved[cursor]
                 checksum = row.get("row_sha256")
@@ -169,11 +202,13 @@ def execute_cases(request, generate):
                 if any(row.get(k) != v for k, v in identity.items()):
                     raise ValueError("Saved response has mismatched case/history")
             else:
-                answer = generate(copy.deepcopy(messages), seed)
+                answer = (generate(copy.deepcopy(messages), seed, system_override=effective_system)
+                          if effective_system is not None else generate(copy.deepcopy(messages), seed))
                 row = {**identity, **answer, "category": case.get("category", "unspecified")}
                 row["row_sha256"] = digest(row)
             rows.append(row)
             messages.append({"role": "assistant", "content": row["text"]})
+            previous_pairs[turn] = copy.deepcopy(messages[-2:])
             cursor += 1
             write_json(output / "progress.json", {"fingerprint": request["fingerprint"], "rows": rows})
     if len(saved) > len(rows):
@@ -305,6 +340,9 @@ def evaluate(bundle, protocol_path, output, adapter=None, resume=False):
         "protocol_sha256": digest(frozen),
         "factory": factory_receipt(bundle.runtime),
     }
+    if any(c.get("sessions") for c in cases):
+        import persona_data.loom
+        binding["agent_renderer_sha256"] = digest(tree_hashes(Path(persona_data.loom.__file__).parent, {".py"}))
     fingerprint = digest(binding)
     if resume:
         if read_json(output / "binding.json") != binding or (output / "manifest.json").exists():
