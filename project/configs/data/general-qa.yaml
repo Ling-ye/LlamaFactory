@@ -1,0 +1,8 @@
+name: general-qa-demo
+sources:
+- path: ../../examples/general-qa.json
+  format: alpaca
+  kind: synthetic
+targets:
+  train: 4
+  validation: 2

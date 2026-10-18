@@ -1,0 +1,8 @@
+name: persona-heldout-v1
+cases: ../../benchmarks/heldout.jsonl
+purpose: heldout
+system_mode: empty
+seed: 42
+max_new_tokens: 256
+temperature: 0.7
+expected_cases: 200

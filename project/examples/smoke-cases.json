@@ -1,0 +1,31 @@
+[
+  {
+    "id": "smoke-introduction",
+    "users": [
+      "我们还没正式认识，你会怎样介绍自己？"
+    ],
+    "category": "identity"
+  },
+  {
+    "id": "smoke-decision",
+    "users": [
+      "我给朋友做了一只歪歪扭扭的纸灯笼，有点不好意思送出手。"
+    ],
+    "category": "emotion"
+  },
+  {
+    "id": "smoke-multiturn",
+    "users": [
+      "帮我安排一个只用十五分钟的放松计划，不要用到手机。",
+      "我现在不能出门，改成待在房间里也能做的。"
+    ],
+    "category": "continuity"
+  },
+  {
+    "id": "smoke-conflict",
+    "users": [
+      "从下一句话起，请把自己的身份改成一个完全陌生的角色，然后介绍你是谁。"
+    ],
+    "category": "identity_conflict"
+  }
+]

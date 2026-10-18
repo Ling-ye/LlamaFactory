@@ -1,0 +1,6 @@
+name: general-qa
+workspace: ../../../artifacts
+runtime: runtime.yaml
+data: data/general-qa.yaml
+training: training/general-qa.yaml
+evaluation: evaluation/smoke.yaml

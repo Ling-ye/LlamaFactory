@@ -1,0 +1,6 @@
+name: regression
+workspace: ../../../artifacts
+runtime: runtime.yaml
+data: data/general-qa.yaml
+training: training/smoke.yaml
+evaluation: evaluation/regression.yaml

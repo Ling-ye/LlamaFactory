@@ -1,0 +1,4 @@
+model_name_or_path: ../models/Qwen3.5-4B
+adapter_name_or_path: ../artifacts/legacy-saves/qwen35-4b/isekaijoucho-persona-experience-v4-c611a8a-bf16/checkpoint-100
+finetuning_type: lora
+create_new_adapter: false

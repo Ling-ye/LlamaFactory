@@ -1,0 +1,7 @@
+name: dpo-smoke
+workspace: ../../../artifacts
+runtime: runtime.yaml
+data: data/dpo-smoke.yaml
+training: training/dpo-smoke.yaml
+evaluation: evaluation/smoke.yaml
+character: characters/isekaijoucho.yaml

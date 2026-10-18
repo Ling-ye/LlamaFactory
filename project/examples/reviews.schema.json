@@ -1,0 +1,23 @@
+{
+  "description": "JSONL: one independent review per case; case_sha256 comes from comparison/blind.jsonl.",
+  "example": {
+    "case_id": "case-id",
+    "case_sha256": "copy-from-blind-case",
+    "winner": "tie",
+    "reviewer_type": "human",
+    "reviewer": "your-name",
+    "reason": "分别说明身份、人物感、事实与自然度的证据；不以长度或口癖数量选胜者。",
+    "A": {
+      "identity": 3,
+      "style": 3,
+      "facts": 3,
+      "naturalness": 3
+    },
+    "B": {
+      "identity": 3,
+      "style": 3,
+      "facts": 3,
+      "naturalness": 3
+    }
+  }
+}

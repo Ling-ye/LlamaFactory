@@ -181,3 +181,12 @@ wandb/
 swanlog/
 generated_predictions.jsonl
 predictions_score.json
+
+# Local model assets, credentials and Hugging Face publishing staging
+models/
+lab/hf-release-staging/
+.env.*
+!.env.example
+
+# Isolated local helper and evaluation environments
+.venv-*/

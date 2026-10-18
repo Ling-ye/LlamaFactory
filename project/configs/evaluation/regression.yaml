@@ -1,0 +1,8 @@
+name: authored-general-regression-v1
+cases: ../../benchmarks/regression.jsonl
+purpose: development
+system_mode: empty
+seed: 42
+max_new_tokens: 48
+temperature: 0
+expected_cases: 12

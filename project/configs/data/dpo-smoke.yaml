@@ -1,0 +1,9 @@
+name: layout-dpo-engineering-only
+stage: dpo
+sources:
+- path: ../../../../persona-loom/workspace/exports/layout-dpo/preferences.jsonl
+  format: preferences
+  kind: rewritten
+parent_adapter: ../../../../artifacts/runs/layout-sft/adapter
+targets:
+  train: 1

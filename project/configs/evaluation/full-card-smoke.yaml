@@ -1,0 +1,8 @@
+name: full-card-engineering-control
+cases: ../../examples/smoke-cases.json
+purpose: smoke
+system_mode: full
+seed: 42
+max_new_tokens: 96
+temperature: 0
+expected_cases: 4

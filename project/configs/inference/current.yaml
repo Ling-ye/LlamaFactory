@@ -1,0 +1,14 @@
+model_name_or_path: ../models/Qwen3.5-4B
+adapter_name_or_path: ../artifacts/legacy-saves/qwen35-4b/isekaijoucho-latest
+finetuning_type: lora
+template: qwen3_5
+enable_thinking: false
+infer_backend: huggingface
+infer_dtype: bfloat16
+flash_attn: sdpa
+max_new_tokens: 384
+do_sample: true
+temperature: 0.7
+top_p: 0.9
+top_k: 50
+repetition_penalty: 1.0

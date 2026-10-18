@@ -1,0 +1,14 @@
+name: isekaijoucho-engineering-smoke
+stage: sft
+sources:
+- path: ../../../../persona-loom/data/Isekaijoucho/datasets/v10-sft-dpo/sft-v1/records.jsonl
+  format: persona_records
+  kind: synthetic
+max_records_per_split:
+  train: 8
+  validation: 2
+seed: 42
+empty_system_ratio: 0.9
+targets:
+  train: 8
+  validation: 2

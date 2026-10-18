@@ -1,0 +1,9 @@
+name: original-character-demo
+sources:
+- path: ../../examples/starlamp.json
+  format: messages
+  kind: synthetic
+empty_system_ratio: 0.9
+targets:
+  train: 10
+  validation: 2

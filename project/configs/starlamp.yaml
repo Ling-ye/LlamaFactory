@@ -1,0 +1,7 @@
+name: starlamp
+workspace: ../../../artifacts
+runtime: runtime.yaml
+data: data/starlamp.yaml
+training: training/starlamp.yaml
+evaluation: evaluation/smoke.yaml
+character: characters/starlamp.yaml

@@ -1,0 +1,20 @@
+{
+  "policy_id": "recognizable-lyrics-2.0.1",
+  "user_instruction": "歌词的评判规则也给我修改，我只要求回复里有歌词，不要要求完全对应",
+  "user_clarification": "允许改写，但应能辨认来自现有38首歌",
+  "lyric_requirement": "回复任意位置包含能辨认来自现有38首歌的歌词，允许片段、改词、拼接和翻译。",
+  "exact_line_is_release_gate": false,
+  "fixed_final_position_is_release_gate": false,
+  "reference_song_or_line_is_required": false,
+  "song_title_or_music_symbol_alone_is_sufficient": false,
+  "exact_line_scores": "historical_diagnostic_only",
+  "primary_protocol_path": "archive/lab/persona-lyrics-recognition-v2/local-2/protocol.json",
+  "primary_protocol_sha256": "49c65e793ce17c0af9f15794db70433331d9ef59b6b844dc1208a9ee02c9410f",
+  "result_path": "archive/lab/persona-lyrics-recognition-v2/local-2/comparison.json",
+  "recognition_implementation": "persona_data.recognizable_lyrics_metrics",
+  "local_heuristic_is_final_semantic_grade": false,
+  "unidentified_adaptations": "待语义复核，不等同于假歌词",
+  "other_acceptance_requirements": "人物身份、正文自称、公开经历事实、任务回应和重复问题继续独立检查",
+  "source_content_and_old_scores": "preserved",
+  "automatic_model_promotion": false
+}

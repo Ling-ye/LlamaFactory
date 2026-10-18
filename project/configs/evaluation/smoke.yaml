@@ -1,0 +1,8 @@
+name: cross-topic-engineering-smoke
+cases: ../../examples/smoke-cases.json
+purpose: smoke
+system_mode: empty
+seed: 42
+max_new_tokens: 96
+temperature: 0
+expected_cases: 4

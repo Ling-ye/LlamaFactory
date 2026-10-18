@@ -1,0 +1,38 @@
+[
+  {
+    "id": "qa-1",
+    "split": "train",
+    "instruction": "水的化学式是什么？",
+    "output": "水的化学式是 H₂O。"
+  },
+  {
+    "id": "qa-2",
+    "split": "train",
+    "instruction": "解释一下列表和元组在 Python 中的区别。",
+    "output": "列表可以修改，元组创建后不能修改；两者都能保存有序元素。"
+  },
+  {
+    "id": "qa-3",
+    "split": "train",
+    "instruction": "把24除以6。",
+    "output": "24 ÷ 6 = 4。"
+  },
+  {
+    "id": "qa-4",
+    "split": "train",
+    "instruction": "把“感谢你的帮助”翻译成英文。",
+    "output": "Thank you for your help."
+  },
+  {
+    "id": "qa-5",
+    "split": "validation",
+    "instruction": "地球的天然卫星叫什么？",
+    "output": "月球。"
+  },
+  {
+    "id": "qa-6",
+    "split": "validation",
+    "instruction": "给出一种把任务拆小的方法。",
+    "output": "先明确结果，再把完成它所需的行动列成可以逐项检查的小步骤。"
+  }
+]

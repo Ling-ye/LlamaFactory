@@ -1,0 +1,7 @@
+name: isekaijoucho-full-card-smoke
+workspace: ../../../artifacts
+runtime: runtime.yaml
+data: data/isekaijoucho-smoke.yaml
+training: training/smoke.yaml
+evaluation: evaluation/full-card-smoke.yaml
+character: characters/isekaijoucho.yaml

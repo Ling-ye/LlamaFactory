@@ -1,0 +1,16 @@
+name: isekaijoucho-import-v1
+stage: sft
+sources:
+- path: ../../../../persona-loom/data/Isekaijoucho/datasets/v10-sft-dpo/sft-v1/records.jsonl
+  format: persona_records
+  kind: synthetic
+seed: 42
+empty_system_ratio: 0.9
+targets:
+  train: 400
+  validation: 40
+category_weights:
+  daily: 0.4
+  emotion_values: 0.25
+  knowledge: 0.2
+  identity_conflict: 0.15
