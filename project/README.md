@@ -5,7 +5,8 @@
 - [工作区结构](docs/architecture.md)
 - [安装与操作](docs/operations.md)
 - [旧命令迁移表](docs/command-migration.md)
-- [资产外置与最终目录](docs/external-assets-20261018.md)
+- [当前工作区与共享资产](docs/workspace-assets-20261018.md)
+- [此前的资产外置记录](docs/external-assets-20261018.md)
 - [首次目录迁移与验收](docs/migration-20261018.md)
 - [工作区导航源文件](docs/workspace-README.md)
 

@@ -1,9 +1,9 @@
-model_name_or_path: ../../llm-training-assets/models/Qwen3.5-4B
-adapter_name_or_path: ../../llm-training-assets/artifacts/runs/layout-sft/adapter
+model_name_or_path: ../llm-training-assets/models/Qwen3.5-4B
+adapter_name_or_path: ../llm-training-assets/artifacts/runs/layout-sft/adapter
 template: qwen3_5
 enable_thinking: false
 finetuning_type: lora
-export_dir: ../../llm-training-assets/artifacts/exports/layout-merged
+export_dir: ../llm-training-assets/artifacts/exports/layout-merged
 export_device: cpu
 export_size: 2
 infer_dtype: bfloat16

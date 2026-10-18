@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "workspace": "llm-training",
+  "source": "llm-training-assets",
+  "assets_root": "llm-training/llm-training-assets",
+  "file_entries": 19598,
+  "regular_file_bytes": 54694098311,
+  "same_filesystem_rename": true,
+  "metadata_identical_before_tracking_rebase": true,
+  "protected_files_verified": 603,
+  "mlflow_rows_rebased": 15,
+  "historical_manifests_rewritten": false,
+  "current_model": "v9",
+  "v10": "paused",
+  "paths_relative_to": "projects_directory",
+  "validation": {
+    "passed": true,
+    "old_root_and_sibling_dataset_paths_validated": true,
+    "old_sealed_records_verified": true,
+    "legacy_adapter_base_match": true,
+    "model_state_hashes_verified": true,
+    "v9_native_chat_exit_code": 0,
+    "v10": "paused",
+    "root_entries": [
+      "llama-factory",
+      "llm-training-assets",
+      "persona-loom"
+    ],
+    "ignored_path_settings_updated": [
+      "llama-factory/llamaboard_cache/user_config.yaml"
+    ]
+  },
+  "tests": {
+    "persona": {
+      "tests": 599,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 12,
+      "passed": 587
+    },
+    "helper": {
+      "tests": 69,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 69
+    }
+  }
+}

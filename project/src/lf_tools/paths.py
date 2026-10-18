@@ -1,5 +1,5 @@
 # Copyright 2026. Licensed under the Apache License, Version 2.0.
-"""Resolve external assets and old recorded paths without changing frozen records."""
+"""Resolve workspace assets and old recorded paths without changing frozen records."""
 
 import os
 from pathlib import Path
@@ -12,7 +12,7 @@ def workspace_root():
 def assets_root(root=None):
     root = Path(root) if root is not None else workspace_root()
     configured = os.environ.get("LLM_TRAINING_ASSETS")
-    return Path(configured).expanduser().absolute() if configured else root.parent / "llm-training-assets"
+    return Path(configured).expanduser().absolute() if configured else root / "llm-training-assets"
 
 
 def recorded_path(path, root=None):
@@ -22,6 +22,7 @@ def recorded_path(path, root=None):
     root = Path(root).absolute() if root is not None else workspace_root()
     assets = assets_root(root)
     mappings = [
+        (root.parent / "llm-training-assets", assets),
         (root / "persona-data/workspace/runtime", root / "persona-loom/workspace/runtime"),
         (root / "models", assets / "models"),
         (root / "artifacts", assets / "artifacts"),

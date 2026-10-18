@@ -191,7 +191,7 @@ lab/hf-release-staging/
 # Isolated local helper and evaluation environments
 .venv-*/
 
-# Shared assets belong in the sibling llm-training-assets directory
+# Shared assets live in the workspace llm-training-assets directory, outside this repository
 /llm-training-assets/
 /artifacts/
 /archive/

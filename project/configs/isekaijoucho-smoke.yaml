@@ -1,5 +1,5 @@
 name: isekaijoucho-smoke
-workspace: ../../../../llm-training-assets/artifacts
+workspace: ../../../llm-training-assets/artifacts
 runtime: runtime.yaml
 data: data/isekaijoucho-smoke.yaml
 training: training/smoke.yaml

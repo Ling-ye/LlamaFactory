@@ -4,6 +4,6 @@ sources:
 - path: ../../../../persona-loom/workspace/exports/layout-dpo/preferences.jsonl
   format: preferences
   kind: rewritten
-parent_adapter: ../../../../../llm-training-assets/artifacts/runs/layout-sft/adapter
+parent_adapter: ../../../../llm-training-assets/artifacts/runs/layout-sft/adapter
 targets:
   train: 1

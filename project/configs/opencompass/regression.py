@@ -10,7 +10,7 @@ from opencompass.openicl.icl_retriever import ZeroRetriever
 from lf_tools.opencompass_regression import RegressionDataset, RegressionEvaluator
 from lf_tools.opencompass_replay import RecordedModel
 
-workspace_path = str(Path(__file__).resolve().parents[5] / "llm-training-assets/artifacts")
+workspace_path = str(Path(__file__).resolve().parents[4] / "llm-training-assets/artifacts")
 models = [
     dict(
         type=RecordedModel,

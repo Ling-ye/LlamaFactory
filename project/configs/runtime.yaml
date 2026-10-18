@@ -1,7 +1,7 @@
 factory_root: ../..
 training_python: ../../.venv/bin/python
 factory_commit: null
-gpu_lock: ../../../../llm-training-assets/artifacts/gpu.lock
+gpu_lock: ../../../llm-training-assets/artifacts/gpu.lock
 opencompass_python: ../../.venv-eval/bin/python
 tracking: mlflow
-tracking_db: ../../../../llm-training-assets/artifacts/tracking/mlflow.sqlite
+tracking_db: ../../../llm-training-assets/artifacts/tracking/mlflow.sqlite

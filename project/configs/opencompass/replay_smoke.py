@@ -10,7 +10,7 @@ from opencompass.openicl.icl_retriever import ZeroRetriever
 from lf_tools.opencompass_plugin import PosttrainRuleEvaluator
 from lf_tools.opencompass_replay import RecordedDataset, RecordedModel
 
-run_path = str(Path(__file__).resolve().parents[5] / "llm-training-assets/artifacts/evals/layout-base-empty")
+run_path = str(Path(__file__).resolve().parents[4] / "llm-training-assets/artifacts/evals/layout-base-empty")
 models = [
     dict(
         type=RecordedModel,

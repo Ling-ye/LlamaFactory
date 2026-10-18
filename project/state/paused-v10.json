@@ -1,7 +1,7 @@
 {
   "paused": true,
   "automatic_resume": false,
-  "checkpoint": "../llm-training-assets/artifacts/legacy-saves/qwen35-4b/isekaijoucho-v10-targeted-sft-bf16/checkpoint-100",
+  "checkpoint": "llm-training-assets/artifacts/legacy-saves/qwen35-4b/isekaijoucho-v10-targeted-sft-bf16/checkpoint-100",
   "files": {
     "adapter_model.safetensors": "0c509f650f1b8476431db40e91480c1da904588b83aa89817668d3dfaf427f33",
     "adapter_config.json": "f74b39e1fd1e9260a027be402a3408b3bb1293dc0c2409e4a2799f53c78a4ac7",
@@ -9,13 +9,13 @@
     "optimizer.pt": "fe4e8a770902f444a695db8a12820455f9934624f858ea1c511e8b71b219bbf9",
     "scheduler.pt": "54b4c9c80c8591c6a5847a379ce6c6bc0bbc8a4e4a33b65b46d8fb0f850d1d95"
   },
-  "historical_resume_notes": "../llm-training-assets/archive/lab/persona-v10-sft-dpo/RESUME.md",
+  "historical_resume_notes": "llm-training-assets/archive/lab/persona-v10-sft-dpo/RESUME.md",
   "data": "persona-loom/data/Isekaijoucho/datasets/v10-sft-dpo",
   "unfinished_review_workspace": "persona-loom/workspace/isekaijoucho-v10",
   "code_preserved": "persona-loom/tool/src/persona_data",
-  "legacy_scripts": "../llm-training-assets/archive/lab/persona-v10-sft-dpo",
-  "historical_paths": "../llm-training-assets/archive/migration/20261018-layout/path-map.json",
+  "legacy_scripts": "llm-training-assets/archive/lab/persona-v10-sft-dpo",
+  "historical_paths": "llm-training-assets/archive/migration/20261018-layout/path-map.json",
   "note": "Do not execute archived controllers directly: review the preserved recovery caveats and translate paths before an explicitly requested resume.",
-  "assets_root": "../llm-training-assets",
+  "assets_root": "llm-training-assets",
   "paths_relative_to": "workspace_root"
 }

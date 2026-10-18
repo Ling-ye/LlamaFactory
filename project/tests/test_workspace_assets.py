@@ -9,10 +9,10 @@ from lf_tools.config import Bundle
 from lf_tools.models import identify, identify_adapter
 
 
-def external_fixture(tmp_path, monkeypatch):
+def asset_fixture(tmp_path, monkeypatch):
     workspace = tmp_path / "llm-training"
     workspace.mkdir()
-    assets = tmp_path / "llm-training-assets"
+    assets = workspace / "llm-training-assets"
     assets.mkdir()
     monkeypatch.setattr(paths, "workspace_root", lambda: workspace)
     monkeypatch.delenv("LLM_TRAINING_ASSETS", raising=False)
@@ -20,7 +20,7 @@ def external_fixture(tmp_path, monkeypatch):
 
 
 def test_frozen_records_remain_verifiable_at_recorded_old_path(tmp_path, monkeypatch):
-    workspace, assets = external_fixture(tmp_path, monkeypatch)
+    workspace, assets = asset_fixture(tmp_path, monkeypatch)
     directory = assets / "artifacts/dataset"
     write_json(directory / "metadata.json", {"original_path": str(workspace / "models/base")})
     write_rows(directory / "records.jsonl", [{"id": "a"}])
@@ -33,7 +33,7 @@ def test_frozen_records_remain_verifiable_at_recorded_old_path(tmp_path, monkeyp
 
 
 def test_legacy_adapter_base_path_matches_relocated_base(tmp_path, monkeypatch):
-    workspace, assets = external_fixture(tmp_path, monkeypatch)
+    workspace, assets = asset_fixture(tmp_path, monkeypatch)
     base = assets / "models/base"
     write_json(base / "config.json", {"model_type": "test"})
     (base / "model.safetensors").write_bytes(b"base")
@@ -47,7 +47,7 @@ def test_legacy_adapter_base_path_matches_relocated_base(tmp_path, monkeypatch):
 
 
 def test_paths_outside_workspace_are_not_remapped(tmp_path, monkeypatch):
-    workspace, assets = external_fixture(tmp_path, monkeypatch)
+    workspace, assets = asset_fixture(tmp_path, monkeypatch)
     other = tmp_path / "unrelated/models/missing"
     assert paths.recorded_path(other) == other
     existing = workspace / "file"
@@ -56,10 +56,10 @@ def test_paths_outside_workspace_are_not_remapped(tmp_path, monkeypatch):
     assert paths.recorded_path(workspace / "posttrain/workspace/run") == assets / "artifacts/legacy-posttrain/run"
 
 
-def test_active_configs_use_external_assets():
+def test_active_configs_use_workspace_assets():
     project = Path(__file__).resolve().parents[1]
     workspace = project.parents[1]
-    assets = workspace.parent / "llm-training-assets"
+    assets = workspace / "llm-training-assets"
     for name in ("isekaijoucho-smoke", "isekaijoucho", "general-qa", "starlamp", "dpo-smoke"):
         bundle = Bundle(project / "configs" / (name + ".yaml"))
         assert bundle.experiment.workspace.resolve().is_relative_to(assets)
@@ -67,3 +67,22 @@ def test_active_configs_use_external_assets():
         assert Path(bundle.native["output_dir"]).is_relative_to(assets / "artifacts")
         assert bundle.runtime.gpu_lock.resolve().is_relative_to(assets)
         assert bundle.runtime.tracking_db.resolve().is_relative_to(assets)
+
+
+def test_previous_sibling_paths_resolve_without_editing_frozen_metadata(tmp_path, monkeypatch):
+    workspace, assets = asset_fixture(tmp_path, monkeypatch)
+    old = workspace.parent / "llm-training-assets/artifacts/run"
+    target = assets / "artifacts/run"
+    write_json(target / "binding.json", {"output": str(old)})
+    manifest = seal(target, {"kind": "historical"})
+    assert verify(old) == manifest
+    assert read_json(old / "binding.json")["output"] == str(old)
+    assert not (workspace.parent / "llm-training-assets").exists()
+
+
+def test_custom_asset_root_remains_supported(tmp_path, monkeypatch):
+    workspace, _ = asset_fixture(tmp_path, monkeypatch)
+    custom = tmp_path / "custom-assets"
+    monkeypatch.setenv("LLM_TRAINING_ASSETS", str(custom))
+    assert paths.assets_root() == custom
+    assert paths.recorded_path(workspace / "models/base") == custom / "models/base"
