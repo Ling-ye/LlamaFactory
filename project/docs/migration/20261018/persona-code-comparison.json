@@ -1,0 +1,354 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "5d99d03c9ef2c411ee05c9aef552b08c76b238df5b8b34994963cdb147d19e80",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "configs/isekaijoucho-expand-v5.yaml",
+      "sha256": "07582a0d2abc5955da9c32d43fdfab0001d1d7d766df62fba544cf540b9fb711",
+      "status": "identical"
+    },
+    {
+      "path": "configs/isekaijoucho-review-v3.yaml",
+      "sha256": "1e7081c07c1f80993b949373a40fad83e0f33e7fb013b3e783d9e3a2c02e75f3",
+      "status": "identical"
+    },
+    {
+      "path": "configs/isekaijoucho-review-v4.yaml",
+      "sha256": "c749dd6d143d3a4ba6f0a0a37db15b4ceca92f03bcac3ea3eb5ff8200257126c",
+      "status": "identical"
+    },
+    {
+      "path": "configs/isekaijoucho-v3.yaml",
+      "sha256": "a6a09a7437e80e26febd1d8df00f36968bae01426ab5da9c4f4ba796505a7ad4",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "configs/isekaijoucho-v4.yaml",
+      "sha256": "0935d845e20561e9ea89e657235cd8161f377d3b2e1a5ac9a05afc5697884369",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "configs/isekaijoucho-v5.yaml",
+      "sha256": "1e4cea06f369f687183b36ac41f5edca8cf95222a0a24fc3098f3ed9cf947015",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "configs/isekaijoucho.yaml",
+      "sha256": "a76efcf6508213994c91b7adfc2c8ab69b5636f4a5ed54adb9ba7579286dc64e",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "docs/adapters.md",
+      "sha256": "14da0a059d6240bc825600d7152106f6e68c8d26f65c82d1b6ea2790223a6fd9",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "9b4fa9239b15d20906eab6235b2f2bc80867a058e36b08a061713c8e79860282",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "scripts/audit_expansion_v5.py",
+      "sha256": "ad3bf7e260b2cd0c004b6627af1d9225d8a373e0dbd55944f8bef9fb04f99445",
+      "status": "identical"
+    },
+    {
+      "path": "scripts/audit_lyric_pilot.py",
+      "sha256": "5603bbcdfca350a79f4d5be6f3a686e8fe4098c0df1b3a208ed1ced59f7724ad",
+      "status": "identical"
+    },
+    {
+      "path": "scripts/audit_review_pilot.py",
+      "sha256": "9f316211da7d384790020e93123c572ca58cf5923e74476a56aa063b5e7a71c8",
+      "status": "identical"
+    },
+    {
+      "path": "scripts/evaluate_lyric_model.py",
+      "sha256": "51175f5b4ebff5271d18b2dbf91a75a2196f1a9c35b4c80fa52e6bd1bb199abb",
+      "status": "identical"
+    },
+    {
+      "path": "scripts/install_project_codex.py",
+      "sha256": "c49170621512fce03a342d0dc67341f81327b234a179977fb4f3907fdde37040",
+      "status": "identical"
+    },
+    {
+      "path": "scripts/prepare_expansion_v5.py",
+      "sha256": "6135264a9cfd8c406efaed365131967c7b325899b5a80288d0e051fb4658bdbf",
+      "status": "identical"
+    },
+    {
+      "path": "scripts/prepare_pilot_v3.py",
+      "sha256": "74bc834362e2ab1234d4cd3d2ce27890e9562045bf9a799d850e0ff4d2fcab23",
+      "status": "identical"
+    },
+    {
+      "path": "scripts/prepare_pilot_v4.py",
+      "sha256": "ed42ae59f1624db8f46ecf9729f29ad8746fe2d9f7971bc86ac7be8f180a613b",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/__init__.py",
+      "sha256": "2bbf3dbaf9de97fd99957b94635093be558a7f058dd403e69d83260a77b0ae9b",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/adapters.py",
+      "sha256": "105593bf82821433ccba3f8409c81604c7f7a3a3ce96b7719b2caf0cd2aa9754",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/build.py",
+      "sha256": "811664325b36a12d03f9fe449c9cf32de78c71e2c5b22516bc6cf0431219081f",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/catalog.json",
+      "sha256": "080935c9f187a4a110ece9f8605d75ee77f5926d1af0655c5ce6aaaabc8d01e1",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/cli.py",
+      "sha256": "6f4d38364605b746bb3aff0baff6b6c440251b0b18bbc7c2e7f02df2cf0d8c0f",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/curriculum.py",
+      "sha256": "b994d8d8351c544e49ae2be4dde904aeddeefa32f6a9f0b6555993844c718053",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/engine.py",
+      "sha256": "e20f0bc70f6f0c20478f811011774f517b4180db7a6d3cc3f155ad4aff578fa6",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/experiment_store.py",
+      "sha256": "e383b8c5b96bd5a74520359c030a16a7129ae173d95ab381a9af99199791f0b5",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/generator.py",
+      "sha256": "a23f3497c7c7eb646e7b1410fa85e96a6be6e061abfc25dad18ddbb64c59593e",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/http_client.py",
+      "sha256": "2ee5f5c73217db4714d37f830ea03f2262ec1c57da593e4bc318d73480cd769e",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/lf_bridge.py",
+      "sha256": "0d5b4723466fa119aea653df82705ec90f95e3fdb6892a179946a182ddf00af7",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/lyric_eval.py",
+      "sha256": "0c18c0cf56b3130bf2c20e59f4d62d8c2a5702734f8d8ee3a009f2e8b2403fca",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/lyric_expand.py",
+      "sha256": "231ec796f648fe0d641ff75bce7ec0dfa88b31951c7955c4e909db55db790042",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/lyric_pilot.py",
+      "sha256": "eb54a211f70798359cb6f492eac453d3a84f7fedd0da386ec6b188b42e9db680",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/lyric_revision.py",
+      "sha256": "c19a93ae305afa95ea3f5e06f1acb8c5ddf8d54d29a48aa80a7c12922e430ad6",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/lyrics.py",
+      "sha256": "fc04b571cdb8b0340a2ae359cf0d75832624afb9e23615be424a2d5ae09d1a07",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/models.py",
+      "sha256": "bc6a5db3dcb7b40c987a4c66a217e21641e0a849e43ee44bcf61c018a675d8ef",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/persona_audit.py",
+      "sha256": "c10bda84e0721412759c1b901a005d2f8623f82dcda8991820708dcb23c4a173",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/persona_metrics_v3.py",
+      "sha256": "8f56f7a4964247011f14500d1ecbe1fc5c62dd236eca7ab907f0e8a493dcb90f",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/pilot.py",
+      "sha256": "adbc7e01f57118d4301d0ae8bfc90be3673e4f609bf11a73b89dbbd36dc49bc4",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/quality.py",
+      "sha256": "29610309bd7a0494483e298f32db08d0cbf2d6e4a6600fd24cc91184bb6a7ffc",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/source_eligibility.py",
+      "sha256": "9e4312b43d5cfd8cfc032bcd8aed4b9d385fdcc6b8668feddf61741cec54eb2c",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/store.py",
+      "sha256": "17b7251fe59dfd44e084422220064adbbceb486f0ae0852d26c505d118684016",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "src/persona_data/token_worker.py",
+      "sha256": "cca85e18dee44ea51578a079e8829a32e9140162c6197d270b9c2b0f6b4cff18",
+      "status": "identical"
+    },
+    {
+      "path": "src/persona_data/validate_lf.py",
+      "sha256": "bd9f5f7c96c6c547b953dfd022f659f4ed6d0ff7094d7eec632551a664dae9ac",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_config_paths.py",
+      "sha256": "364359434e0b144ec78643aa16d1524ada3a7b8ee866b3acdd6a756c156d535b",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_coverage_audit.py",
+      "sha256": "2fe7386f6cef335fc34b2192da8fcd96a49033f6d1192975737fd9213a699002",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_curriculum.py",
+      "sha256": "4ecbe6703def3f6ce367f9a4404b3905bcae2c973995ec69e5e477729f63a03c",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_evidence.py",
+      "sha256": "50a8635a4b3f5413a97d05fec66ec35c8bc206819f296a8834f1569b5ceb9444",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_experiment_store.py",
+      "sha256": "0b2b4a388cfb5fa952f52e9ec34db44f015a5da3ccff1cc6f8b8f6a6f0f434d4",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_export_validation.py",
+      "sha256": "318440b05b5089fd1759f29fcc9b1b12000311e18886450a3b3340e0e7322750",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_generation_resilience.py",
+      "sha256": "a10ae660626016a1eb7f20ffec8b318fc78b2783ccf32360b80f38612e06da19",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_judge_facts.py",
+      "sha256": "9ac0f89de430ca2246e62f8fdfe8f2b09aff182b5e96bb47565864865161a995",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_judge_facts_v2.py",
+      "sha256": "d1f51aaa2084f30ff22dcc7db9fa6597289ae9538c4b33acee6f6ba9bf187e83",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_judge_identity.py",
+      "sha256": "07d072a4df745b6dad2aecff6196e366293fade986a7966aaacaea3f9f772ad2",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_judge_pairs_public.py",
+      "sha256": "1c90fee0e6776906ea0521dbb232d1ddcd0a47c7e3ec9f8310562cbea7d689cf",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_local_fact_review.py",
+      "sha256": "8ead46a9322c1eab7bc5eca26a2c2cf935fb0c46c0b4518c7643e072cdf7cdbd",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_local_paired_review.py",
+      "sha256": "23f1e6a47b1358a6ed2e953e0c893f301261b67c72396551ed5cbdb919cb3948",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_lyric_eval.py",
+      "sha256": "e60307c0985eca60d84edcc4b968f5c0e453604e11d93527d131e6af5b08fa0c",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_lyric_expand.py",
+      "sha256": "29947be321cdf53e8c5fdd50b49f8a20bd48b489a236b2073fc475d7c4b7a600",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_lyric_revision.py",
+      "sha256": "b07f56b9a2684e62a4a7a0f8c94ba8840779bdb26951851d5ed753f1aab6adc7",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_lyrics.py",
+      "sha256": "7d3270b164a061e0b2c42f590f1ab0014c5cc2e6cf47f0d53a52ac53a399914c",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_persona_audit.py",
+      "sha256": "749b5c046cae06a4cd4d52ff798617ad0ea37bdef56a63d6b0fef2d0036e7218",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_persona_metrics_v3.py",
+      "sha256": "bd099bdf0152ad2d60bf48c4f52d172d4e7b467e962b8a5d0efaef4a01b6d6c5",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "sha256": "d065249db68493e0053c6d2b42afdc0c3abf71bdaad3e0926dd3f820dff428fc",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_prompt_lineage.py",
+      "sha256": "d6c8a3a2af4069d7f8256bd7edce5c30a183690d1652591c0c932427b6884a32",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_resilience.py",
+      "sha256": "3cb41fc29d343c7e377e7b04b24f466da4d441f63195ec0a9a394f12cfdf1f7e",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_review_pilot.py",
+      "sha256": "5c5c3f864a557ed61d16775baf11dbe6ade36f0fe4246de38e22a47256598147",
+      "status": "identical"
+    },
+    {
+      "path": "tests/test_review_repair.py",
+      "sha256": "138b093a09bd7ee306bea07241a3c12e92008b2cb39ee84b7afc142e3cfa0141",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_role_identity_evaluation.py",
+      "sha256": "27fdb365124d1d756c32cdadc629ca237bbd455920767fd52121a784a119ad56",
+      "status": "unique_old_version"
+    },
+    {
+      "path": "tests/test_source_eligibility.py",
+      "sha256": "d4672accc214e6c486b07afb4f07e0f09cc6daa1feae83f704ad533920a61102",
+      "status": "identical"
+    }
+  ],
+  "counts": {
+    "unique_old_version": 37,
+    "identical": 32
+  },
+  "backup_sha256": "42b49e47454ccf751047f2676718dab2d3598a33649e82a79c90363852ba3907"
+}

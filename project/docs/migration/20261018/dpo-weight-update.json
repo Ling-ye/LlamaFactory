@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "changed_tensors": 496,
+  "total_tensors": 496,
+  "learning_rate": 5e-06,
+  "parent_sha256": "14e4bc7c9401be0f2fabb16c5cb35392a43cf3685dc9cedcbc26cebcc5085603",
+  "trained_sha256": "3147ba1b9457c06d623acc6911dc6e8115233cd72b7c99e1ae5d903ab1f010ec"
+}

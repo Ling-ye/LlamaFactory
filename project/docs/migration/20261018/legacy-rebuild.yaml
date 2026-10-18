@@ -1,0 +1,9 @@
+adapter_name_or_path: ../artifacts/legacy-posttrain/runs/isekaijoucho-smoke-02/adapter
+enable_thinking: false
+export_device: cpu
+export_dir: ../artifacts/exports/rebuilt-legacy-smoke
+export_size: 2
+finetuning_type: lora
+infer_dtype: bfloat16
+model_name_or_path: ../models/Qwen3.5-4B
+template: qwen3_5

@@ -1,0 +1,161 @@
+{
+  "paths_relative_to": "workspace_root",
+  "moves": [
+    {
+      "old": ".ai",
+      "new": "llama-factory/.ai"
+    },
+    {
+      "old": ".claude",
+      "new": "llama-factory/.claude"
+    },
+    {
+      "old": ".dockerignore",
+      "new": "llama-factory/.dockerignore"
+    },
+    {
+      "old": ".env.local",
+      "new": "llama-factory/project/.env.local"
+    },
+    {
+      "old": ".gitattributes",
+      "new": "llama-factory/.gitattributes"
+    },
+    {
+      "old": ".github",
+      "new": "llama-factory/.github"
+    },
+    {
+      "old": ".gitignore",
+      "new": "llama-factory/.gitignore"
+    },
+    {
+      "old": ".pre-commit-config.yaml",
+      "new": "llama-factory/.pre-commit-config.yaml"
+    },
+    {
+      "old": "CITATION.cff",
+      "new": "llama-factory/CITATION.cff"
+    },
+    {
+      "old": "CLAUDE.md",
+      "new": "llama-factory/CLAUDE.md"
+    },
+    {
+      "old": "LICENSE",
+      "new": "llama-factory/LICENSE"
+    },
+    {
+      "old": "MANIFEST.in",
+      "new": "llama-factory/MANIFEST.in"
+    },
+    {
+      "old": "Makefile",
+      "new": "llama-factory/Makefile"
+    },
+    {
+      "old": "README.md",
+      "new": "llama-factory/README.md"
+    },
+    {
+      "old": "README_zh.md",
+      "new": "llama-factory/README_zh.md"
+    },
+    {
+      "old": "assets",
+      "new": "llama-factory/assets"
+    },
+    {
+      "old": "data",
+      "new": "llama-factory/data"
+    },
+    {
+      "old": "docker",
+      "new": "llama-factory/docker"
+    },
+    {
+      "old": "docs",
+      "new": "llama-factory/docs"
+    },
+    {
+      "old": "examples",
+      "new": "llama-factory/examples"
+    },
+    {
+      "old": "pyproject.toml",
+      "new": "llama-factory/pyproject.toml"
+    },
+    {
+      "old": "requirements",
+      "new": "llama-factory/requirements"
+    },
+    {
+      "old": "scripts",
+      "new": "llama-factory/scripts"
+    },
+    {
+      "old": "src",
+      "new": "llama-factory/src"
+    },
+    {
+      "old": "tests",
+      "new": "llama-factory/tests"
+    },
+    {
+      "old": "tests_v1",
+      "new": "llama-factory/tests_v1"
+    },
+    {
+      "old": ".git",
+      "new": "llama-factory/.git"
+    },
+    {
+      "old": ".venv",
+      "new": "llama-factory/.venv"
+    },
+    {
+      "old": "persona-data/.venv",
+      "new": "persona-loom/.venv"
+    },
+    {
+      "old": "posttrain/.venv",
+      "new": "llama-factory/.venv-tools"
+    },
+    {
+      "old": "posttrain/.venv-eval",
+      "new": "llama-factory/.venv-eval"
+    },
+    {
+      "old": "posttrain/workspace",
+      "new": "artifacts/legacy-posttrain"
+    },
+    {
+      "old": "saves",
+      "new": "artifacts/legacy-saves"
+    },
+    {
+      "old": "lab",
+      "new": "archive/lab"
+    },
+    {
+      "old": "persona-data",
+      "new": "archive/legacy-persona-data"
+    },
+    {
+      "old": "posttrain",
+      "new": "archive/legacy-posttrain-source"
+    },
+    {
+      "old": "llamaboard_cache",
+      "new": "llama-factory/llamaboard_cache"
+    },
+    {
+      "old": "llamaboard_config",
+      "new": "llama-factory/llamaboard_config"
+    },
+    {
+      "old": "persona-data/workspace/runtime",
+      "new": "persona-loom/workspace/runtime"
+    }
+  ]
+}

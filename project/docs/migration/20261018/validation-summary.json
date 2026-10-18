@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "tests": {
+    "persona": {
+      "tests": 597,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 12
+    },
+    "helpers": {
+      "tests": 63,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "sft_steps": 2,
+  "dpo_steps": 1,
+  "dpo_learning_rate": 5e-06,
+  "dpo_changed_tensors": 496,
+  "empty_system_actual_inputs_verified": true,
+  "native_chat_v9": true,
+  "export_reloaded": true,
+  "protected_assets": 603,
+  "complete_dataset": {
+    "train": 400,
+    "validation": 40,
+    "max_tokens": 717,
+    "truncated": 0
+  },
+  "opencompass": "isolated replay of actual responses, not new benchmark inference",
+  "mlflow": "local SQLite records present",
+  "current_version": "v9",
+  "rollback_version": "v8",
+  "v10": "paused",
+  "verified_artifacts": [
+    "artifacts/runs/layout-sft",
+    "artifacts/runs/layout-dpo-02",
+    "artifacts/evals/layout-base-empty",
+    "artifacts/evals/layout-base-card",
+    "artifacts/evals/layout-sft-empty",
+    "artifacts/comparisons/layout-base-vs-sft",
+    "artifacts/comparisons/layout-card-vs-sft",
+    "artifacts/opencompass/layout-isolated",
+    "artifacts/prepared/layout-general",
+    "artifacts/prepared/layout-starlamp"
+  ],
+  "role_quality_accepted": false,
+  "formal_training_started": false
+}

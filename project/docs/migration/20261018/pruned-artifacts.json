@@ -1,0 +1,2297 @@
+{
+  "original_manifests_modified": false,
+  "plan": {
+    "files": [
+      {
+        "path": "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00001-of-00005.safetensors",
+        "size": 1996138368,
+        "allocated_bytes": 1996144640,
+        "sha256": "af9f9ba42d03156b96f8572fa9fd2c84e38dabad63020ec3fa5981e4d118b92a",
+        "reason": "Exact reconstruction of all 723 tensors verified; base/adapter/recipe retained",
+        "group": "legacy-merged",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00002-of-00005.safetensors",
+        "size": 1995160352,
+        "allocated_bytes": 1995165696,
+        "sha256": "92b807d04ac5709c82593c68ea6040a8d203eaf0098b1e059b87f2b3b9e4186f",
+        "reason": "Exact reconstruction of all 723 tensors verified; base/adapter/recipe retained",
+        "group": "legacy-merged",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00003-of-00005.safetensors",
+        "size": 1968944944,
+        "allocated_bytes": 1968951296,
+        "sha256": "1cef0d470a3eb495ee1e553660f458019e81ecca8f585e1f80598bbb6f416496",
+        "reason": "Exact reconstruction of all 723 tensors verified; base/adapter/recipe retained",
+        "group": "legacy-merged",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00004-of-00005.safetensors",
+        "size": 1963297576,
+        "allocated_bytes": 1963302912,
+        "sha256": "07550195afa15220fcd1db1d24a2597fdb0776b7e34a6e0ce38dde3bef29cd50",
+        "reason": "Exact reconstruction of all 723 tensors verified; base/adapter/recipe retained",
+        "group": "legacy-merged",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00005-of-00005.safetensors",
+        "size": 1155078448,
+        "allocated_bytes": 1155084288,
+        "sha256": "41da4c9a64d9bb20557cc9490e8d09b046a7a5022da7fa74af3e64edc93d3070",
+        "reason": "Exact reconstruction of all 723 tensors verified; base/adapter/recipe retained",
+        "group": "legacy-merged",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/rebuild/legacy-merged/model-00001-of-00005.safetensors",
+        "size": 1996138368,
+        "allocated_bytes": 1996144640,
+        "sha256": "af9f9ba42d03156b96f8572fa9fd2c84e38dabad63020ec3fa5981e4d118b92a",
+        "reason": "Temporary reconstruction verification weights",
+        "group": "rebuild-temporary",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/rebuild/legacy-merged/model-00002-of-00005.safetensors",
+        "size": 1995160352,
+        "allocated_bytes": 1995165696,
+        "sha256": "92b807d04ac5709c82593c68ea6040a8d203eaf0098b1e059b87f2b3b9e4186f",
+        "reason": "Temporary reconstruction verification weights",
+        "group": "rebuild-temporary",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/rebuild/legacy-merged/model-00003-of-00005.safetensors",
+        "size": 1968944944,
+        "allocated_bytes": 1968951296,
+        "sha256": "1cef0d470a3eb495ee1e553660f458019e81ecca8f585e1f80598bbb6f416496",
+        "reason": "Temporary reconstruction verification weights",
+        "group": "rebuild-temporary",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/rebuild/legacy-merged/model-00004-of-00005.safetensors",
+        "size": 1963297576,
+        "allocated_bytes": 1963302912,
+        "sha256": "07550195afa15220fcd1db1d24a2597fdb0776b7e34a6e0ce38dde3bef29cd50",
+        "reason": "Temporary reconstruction verification weights",
+        "group": "rebuild-temporary",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/rebuild/legacy-merged/model-00005-of-00005.safetensors",
+        "size": 1155078448,
+        "allocated_bytes": 1155084288,
+        "sha256": "41da4c9a64d9bb20557cc9490e8d09b046a7a5022da7fa74af3e64edc93d3070",
+        "reason": "Temporary reconstruction verification weights",
+        "group": "rebuild-temporary",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/exports/layout-merged/model-00001-of-00005.safetensors",
+        "size": 1996138368,
+        "allocated_bytes": 1996144640,
+        "sha256": "46469ffdf318c25a626482ccfee3514f249014184396942eb1338ae1e9196f42",
+        "reason": "Native CLI export and actual reload verified; smoke adapter and export YAML retained",
+        "group": "new-smoke-merged",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/exports/layout-merged/model-00002-of-00005.safetensors",
+        "size": 1995160352,
+        "allocated_bytes": 1995165696,
+        "sha256": "ac7b191f1b37cb0d192e8688da4384e2b6a2ca11df2791c6d8288faa9e35e21d",
+        "reason": "Native CLI export and actual reload verified; smoke adapter and export YAML retained",
+        "group": "new-smoke-merged",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/exports/layout-merged/model-00004-of-00005.safetensors",
+        "size": 1963297576,
+        "allocated_bytes": 1963302912,
+        "sha256": "a3dee3c4479cc848f6fe9232fe182ac20759d9b2ebb2f420731f1fee0e90c32c",
+        "reason": "Native CLI export and actual reload verified; smoke adapter and export YAML retained",
+        "group": "new-smoke-merged",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/exports/layout-merged/model-00005-of-00005.safetensors",
+        "size": 1155078448,
+        "allocated_bytes": 1155084288,
+        "sha256": "b69eccc586a184aefb71dfbbaec4a366cfd997d40521b82af4f1117aef39d01b",
+        "reason": "Native CLI export and actual reload verified; smoke adapter and export YAML retained",
+        "group": "new-smoke-merged",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/exports/layout-merged/model-00003-of-00005.safetensors",
+        "size": 1968944944,
+        "allocated_bytes": 1968951296,
+        "sha256": "3b2d757c067d515d065b9be75e4f8013726b247e6c4e28d4939578d208676073",
+        "reason": "Native CLI export and actual reload verified; smoke adapter and export YAML retained",
+        "group": "new-smoke-merged",
+        "recoverable": true,
+        "preexisting": false
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-01/adapter/checkpoint-1/optimizer.pt",
+        "size": 130277555,
+        "allocated_bytes": 130281472,
+        "sha256": "41fb0f9115b6e4d013c42a017f605ba84f33882a19694a6864aa73772b4ebacb",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-01/adapter/checkpoint-2/optimizer.pt",
+        "size": 130277555,
+        "allocated_bytes": 130285568,
+        "sha256": "e5e8c2340fe3e9f511a18610dc662309c7dfe8d77bb3a273ec7443eb473e6e0e",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-01/adapter/checkpoint-1/scheduler.pt",
+        "size": 1465,
+        "allocated_bytes": 4096,
+        "sha256": "ac0a3eec0b7cfcf5904d5efa27b846eeee3ecad5a1b3991f33450b5b27efe79b",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-01/adapter/checkpoint-2/scheduler.pt",
+        "size": 1465,
+        "allocated_bytes": 4096,
+        "sha256": "46520f43d32bdbe808205f98902d83e6aba0a029433b33732b9aba99aa804d9d",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-01/adapter/checkpoint-1/rng_state.pth",
+        "size": 14645,
+        "allocated_bytes": 16384,
+        "sha256": "57f967ec3c22b8b47052680112b23cef8b3b5670cac0ce13b755dc82f5126d89",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-01/adapter/checkpoint-2/rng_state.pth",
+        "size": 14645,
+        "allocated_bytes": 16384,
+        "sha256": "03985de4cbc92b3b7c1db711bec610d6c92aba68deeb5f74b2d9418a54662aa3",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/starlamp-smoke-01/adapter/checkpoint-1/optimizer.pt",
+        "size": 130277555,
+        "allocated_bytes": 130281472,
+        "sha256": "4ce627352c6489b3e57efa6ec08a44c6dfb6a1b54aeece4d2aca57d7aae547c9",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "starlamp-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/starlamp-smoke-01/adapter/checkpoint-2/optimizer.pt",
+        "size": 130277555,
+        "allocated_bytes": 130285568,
+        "sha256": "6ca645ff9c1f467dacb4a8d269298df52a4f8c36e5e8fbfb2bd2cce7952a198e",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "starlamp-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/starlamp-smoke-01/adapter/checkpoint-1/scheduler.pt",
+        "size": 1465,
+        "allocated_bytes": 4096,
+        "sha256": "ac0a3eec0b7cfcf5904d5efa27b846eeee3ecad5a1b3991f33450b5b27efe79b",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "starlamp-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/starlamp-smoke-01/adapter/checkpoint-2/scheduler.pt",
+        "size": 1465,
+        "allocated_bytes": 4096,
+        "sha256": "46520f43d32bdbe808205f98902d83e6aba0a029433b33732b9aba99aa804d9d",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "starlamp-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/starlamp-smoke-01/adapter/checkpoint-1/rng_state.pth",
+        "size": 14645,
+        "allocated_bytes": 16384,
+        "sha256": "c0221063be18a79580c4b7bb644aded760479f669ce1e43a2f8a62f3401d860e",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "starlamp-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/starlamp-smoke-01/adapter/checkpoint-2/rng_state.pth",
+        "size": 14645,
+        "allocated_bytes": 16384,
+        "sha256": "3429fd963c70f32aaa931e11ae75ad8c2e27757a52c0e503c0d00ae1e0fd32b6",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "starlamp-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/general-qa-smoke-01/adapter/checkpoint-1/optimizer.pt",
+        "size": 130277555,
+        "allocated_bytes": 130281472,
+        "sha256": "161fbb6c66226dfb365165457f4f0106246b9d1185f636b4d7160b6592670bfd",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "general-qa-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/general-qa-smoke-01/adapter/checkpoint-2/optimizer.pt",
+        "size": 130277555,
+        "allocated_bytes": 130281472,
+        "sha256": "787205d37fd6c2d140e4201de6549eae1cfa90b6d6158144e64a66f6c6097629",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "general-qa-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/general-qa-smoke-01/adapter/checkpoint-1/scheduler.pt",
+        "size": 1465,
+        "allocated_bytes": 4096,
+        "sha256": "ac0a3eec0b7cfcf5904d5efa27b846eeee3ecad5a1b3991f33450b5b27efe79b",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "general-qa-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/general-qa-smoke-01/adapter/checkpoint-2/scheduler.pt",
+        "size": 1465,
+        "allocated_bytes": 4096,
+        "sha256": "46520f43d32bdbe808205f98902d83e6aba0a029433b33732b9aba99aa804d9d",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "general-qa-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/general-qa-smoke-01/adapter/checkpoint-1/rng_state.pth",
+        "size": 14645,
+        "allocated_bytes": 16384,
+        "sha256": "3397a4520dfc6d99b445c42035ecbce239fba016fbd9059753c28800290c18e6",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "general-qa-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/general-qa-smoke-01/adapter/checkpoint-2/rng_state.pth",
+        "size": 14645,
+        "allocated_bytes": 16384,
+        "sha256": "6667fdedb47253edb39b33465a38c3f0634c62b543e7570eb4e7c6d5ef11af11",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "general-qa-smoke-01",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-02/adapter/checkpoint-1/optimizer.pt",
+        "size": 130277555,
+        "allocated_bytes": 130281472,
+        "sha256": "0c4c333e7a8504cf4184dfa6ba57ddd631548c77be1bdb0c22211d3e0e0e1e5a",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-02",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-02/adapter/checkpoint-2/optimizer.pt",
+        "size": 130277555,
+        "allocated_bytes": 130285568,
+        "sha256": "186c0b10ffd30f7699cef1ecbd6a4140f4e0bca3c61579357d164f2f9ff1de55",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-02",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-02/adapter/checkpoint-1/scheduler.pt",
+        "size": 1465,
+        "allocated_bytes": 4096,
+        "sha256": "ac0a3eec0b7cfcf5904d5efa27b846eeee3ecad5a1b3991f33450b5b27efe79b",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-02",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-02/adapter/checkpoint-2/scheduler.pt",
+        "size": 1465,
+        "allocated_bytes": 4096,
+        "sha256": "46520f43d32bdbe808205f98902d83e6aba0a029433b33732b9aba99aa804d9d",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-02",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-02/adapter/checkpoint-1/rng_state.pth",
+        "size": 14645,
+        "allocated_bytes": 16384,
+        "sha256": "57f967ec3c22b8b47052680112b23cef8b3b5670cac0ce13b755dc82f5126d89",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-02",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-02/adapter/checkpoint-2/rng_state.pth",
+        "size": 14645,
+        "allocated_bytes": 16384,
+        "sha256": "03985de4cbc92b3b7c1db711bec610d6c92aba68deeb5f74b2d9418a54662aa3",
+        "reason": "Completed engineering smoke; selected adapters retained; exact optimizer resume retired",
+        "group": "isekaijoucho-smoke-02",
+        "recoverable": false,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/README.md",
+        "size": 8055,
+        "allocated_bytes": 8192,
+        "sha256": "5d99d03c9ef2c411ee05c9aef552b08c76b238df5b8b34994963cdb147d19e80",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/configs/isekaijoucho-expand-v5.yaml",
+        "size": 588,
+        "allocated_bytes": 4096,
+        "sha256": "07582a0d2abc5955da9c32d43fdfab0001d1d7d766df62fba544cf540b9fb711",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/configs/isekaijoucho-review-v3.yaml",
+        "size": 622,
+        "allocated_bytes": 4096,
+        "sha256": "1e7081c07c1f80993b949373a40fad83e0f33e7fb013b3e783d9e3a2c02e75f3",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/configs/isekaijoucho-review-v4.yaml",
+        "size": 481,
+        "allocated_bytes": 4096,
+        "sha256": "c749dd6d143d3a4ba6f0a0a37db15b4ceca92f03bcac3ea3eb5ff8200257126c",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/configs/isekaijoucho-v3.yaml",
+        "size": 3563,
+        "allocated_bytes": 4096,
+        "sha256": "a6a09a7437e80e26febd1d8df00f36968bae01426ab5da9c4f4ba796505a7ad4",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/configs/isekaijoucho-v4.yaml",
+        "size": 3759,
+        "allocated_bytes": 4096,
+        "sha256": "0935d845e20561e9ea89e657235cd8161f377d3b2e1a5ac9a05afc5697884369",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/configs/isekaijoucho-v5.yaml",
+        "size": 3760,
+        "allocated_bytes": 4096,
+        "sha256": "1e4cea06f369f687183b36ac41f5edca8cf95222a0a24fc3098f3ed9cf947015",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/configs/isekaijoucho.yaml",
+        "size": 3421,
+        "allocated_bytes": 4096,
+        "sha256": "a76efcf6508213994c91b7adfc2c8ab69b5636f4a5ed54adb9ba7579286dc64e",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/docs/adapters.md",
+        "size": 3254,
+        "allocated_bytes": 4096,
+        "sha256": "14da0a059d6240bc825600d7152106f6e68c8d26f65c82d1b6ea2790223a6fd9",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/pyproject.toml",
+        "size": 1097,
+        "allocated_bytes": 4096,
+        "sha256": "9b4fa9239b15d20906eab6235b2f2bc80867a058e36b08a061713c8e79860282",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/scripts/audit_expansion_v5.py",
+        "size": 6395,
+        "allocated_bytes": 8192,
+        "sha256": "ad3bf7e260b2cd0c004b6627af1d9225d8a373e0dbd55944f8bef9fb04f99445",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/scripts/audit_lyric_pilot.py",
+        "size": 5916,
+        "allocated_bytes": 8192,
+        "sha256": "5603bbcdfca350a79f4d5be6f3a686e8fe4098c0df1b3a208ed1ced59f7724ad",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/scripts/audit_review_pilot.py",
+        "size": 4358,
+        "allocated_bytes": 8192,
+        "sha256": "9f316211da7d384790020e93123c572ca58cf5923e74476a56aa063b5e7a71c8",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/scripts/evaluate_lyric_model.py",
+        "size": 2544,
+        "allocated_bytes": 4096,
+        "sha256": "51175f5b4ebff5271d18b2dbf91a75a2196f1a9c35b4c80fa52e6bd1bb199abb",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/scripts/install_project_codex.py",
+        "size": 1169,
+        "allocated_bytes": 4096,
+        "sha256": "c49170621512fce03a342d0dc67341f81327b234a179977fb4f3907fdde37040",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/scripts/prepare_expansion_v5.py",
+        "size": 1494,
+        "allocated_bytes": 4096,
+        "sha256": "6135264a9cfd8c406efaed365131967c7b325899b5a80288d0e051fb4658bdbf",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/scripts/prepare_pilot_v3.py",
+        "size": 5784,
+        "allocated_bytes": 8192,
+        "sha256": "74bc834362e2ab1234d4cd3d2ce27890e9562045bf9a799d850e0ff4d2fcab23",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/scripts/prepare_pilot_v4.py",
+        "size": 2033,
+        "allocated_bytes": 4096,
+        "sha256": "ed42ae59f1624db8f46ecf9729f29ad8746fe2d9f7971bc86ac7be8f180a613b",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__init__.py",
+        "size": 106,
+        "allocated_bytes": 4096,
+        "sha256": "2bbf3dbaf9de97fd99957b94635093be558a7f058dd403e69d83260a77b0ae9b",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/adapters.py",
+        "size": 21906,
+        "allocated_bytes": 24576,
+        "sha256": "105593bf82821433ccba3f8409c81604c7f7a3a3ce96b7719b2caf0cd2aa9754",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/build.py",
+        "size": 30675,
+        "allocated_bytes": 32768,
+        "sha256": "811664325b36a12d03f9fe449c9cf32de78c71e2c5b22516bc6cf0431219081f",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/catalog.json",
+        "size": 4842,
+        "allocated_bytes": 8192,
+        "sha256": "080935c9f187a4a110ece9f8605d75ee77f5926d1af0655c5ce6aaaabc8d01e1",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/cli.py",
+        "size": 8572,
+        "allocated_bytes": 12288,
+        "sha256": "6f4d38364605b746bb3aff0baff6b6c440251b0b18bbc7c2e7f02df2cf0d8c0f",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/curriculum.py",
+        "size": 42717,
+        "allocated_bytes": 45056,
+        "sha256": "b994d8d8351c544e49ae2be4dde904aeddeefa32f6a9f0b6555993844c718053",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/engine.py",
+        "size": 10598,
+        "allocated_bytes": 12288,
+        "sha256": "e20f0bc70f6f0c20478f811011774f517b4180db7a6d3cc3f155ad4aff578fa6",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/experiment_store.py",
+        "size": 48959,
+        "allocated_bytes": 49152,
+        "sha256": "e383b8c5b96bd5a74520359c030a16a7129ae173d95ab381a9af99199791f0b5",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/generator.py",
+        "size": 8961,
+        "allocated_bytes": 12288,
+        "sha256": "a23f3497c7c7eb646e7b1410fa85e96a6be6e061abfc25dad18ddbb64c59593e",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/http_client.py",
+        "size": 5654,
+        "allocated_bytes": 8192,
+        "sha256": "2ee5f5c73217db4714d37f830ea03f2262ec1c57da593e4bc318d73480cd769e",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/lf_bridge.py",
+        "size": 809,
+        "allocated_bytes": 4096,
+        "sha256": "0d5b4723466fa119aea653df82705ec90f95e3fdb6892a179946a182ddf00af7",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/lyric_eval.py",
+        "size": 1790,
+        "allocated_bytes": 4096,
+        "sha256": "0c18c0cf56b3130bf2c20e59f4d62d8c2a5702734f8d8ee3a009f2e8b2403fca",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/lyric_expand.py",
+        "size": 24395,
+        "allocated_bytes": 24576,
+        "sha256": "231ec796f648fe0d641ff75bce7ec0dfa88b31951c7955c4e909db55db790042",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/lyric_pilot.py",
+        "size": 25308,
+        "allocated_bytes": 28672,
+        "sha256": "eb54a211f70798359cb6f492eac453d3a84f7fedd0da386ec6b188b42e9db680",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/lyric_revision.py",
+        "size": 1986,
+        "allocated_bytes": 4096,
+        "sha256": "c19a93ae305afa95ea3f5e06f1acb8c5ddf8d54d29a48aa80a7c12922e430ad6",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/lyrics.py",
+        "size": 7787,
+        "allocated_bytes": 8192,
+        "sha256": "fc04b571cdb8b0340a2ae359cf0d75832624afb9e23615be424a2d5ae09d1a07",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/models.py",
+        "size": 7196,
+        "allocated_bytes": 8192,
+        "sha256": "bc6a5db3dcb7b40c987a4c66a217e21641e0a849e43ee44bcf61c018a675d8ef",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/persona_audit.py",
+        "size": 20844,
+        "allocated_bytes": 24576,
+        "sha256": "c10bda84e0721412759c1b901a005d2f8623f82dcda8991820708dcb23c4a173",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/persona_metrics_v3.py",
+        "size": 15162,
+        "allocated_bytes": 16384,
+        "sha256": "8f56f7a4964247011f14500d1ecbe1fc5c62dd236eca7ab907f0e8a493dcb90f",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/pilot.py",
+        "size": 28270,
+        "allocated_bytes": 28672,
+        "sha256": "adbc7e01f57118d4301d0ae8bfc90be3673e4f609bf11a73b89dbbd36dc49bc4",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/quality.py",
+        "size": 4759,
+        "allocated_bytes": 8192,
+        "sha256": "29610309bd7a0494483e298f32db08d0cbf2d6e4a6600fd24cc91184bb6a7ffc",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/source_eligibility.py",
+        "size": 7858,
+        "allocated_bytes": 8192,
+        "sha256": "9e4312b43d5cfd8cfc032bcd8aed4b9d385fdcc6b8668feddf61741cec54eb2c",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/store.py",
+        "size": 14164,
+        "allocated_bytes": 16384,
+        "sha256": "17b7251fe59dfd44e084422220064adbbceb486f0ae0852d26c505d118684016",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/token_worker.py",
+        "size": 801,
+        "allocated_bytes": 4096,
+        "sha256": "cca85e18dee44ea51578a079e8829a32e9140162c6197d270b9c2b0f6b4cff18",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/validate_lf.py",
+        "size": 2929,
+        "allocated_bytes": 4096,
+        "sha256": "bd9f5f7c96c6c547b953dfd022f659f4ed6d0ff7094d7eec632551a664dae9ac",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_config_paths.py",
+        "size": 799,
+        "allocated_bytes": 4096,
+        "sha256": "364359434e0b144ec78643aa16d1524ada3a7b8ee866b3acdd6a756c156d535b",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_coverage_audit.py",
+        "size": 4435,
+        "allocated_bytes": 8192,
+        "sha256": "2fe7386f6cef335fc34b2192da8fcd96a49033f6d1192975737fd9213a699002",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_curriculum.py",
+        "size": 24696,
+        "allocated_bytes": 28672,
+        "sha256": "4ecbe6703def3f6ce367f9a4404b3905bcae2c973995ec69e5e477729f63a03c",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_evidence.py",
+        "size": 2445,
+        "allocated_bytes": 4096,
+        "sha256": "50a8635a4b3f5413a97d05fec66ec35c8bc206819f296a8834f1569b5ceb9444",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_experiment_store.py",
+        "size": 31172,
+        "allocated_bytes": 32768,
+        "sha256": "0b2b4a388cfb5fa952f52e9ec34db44f015a5da3ccff1cc6f8b8f6a6f0f434d4",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_export_validation.py",
+        "size": 1471,
+        "allocated_bytes": 4096,
+        "sha256": "318440b05b5089fd1759f29fcc9b1b12000311e18886450a3b3340e0e7322750",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_generation_resilience.py",
+        "size": 2254,
+        "allocated_bytes": 4096,
+        "sha256": "a10ae660626016a1eb7f20ffec8b318fc78b2783ccf32360b80f38612e06da19",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_judge_facts.py",
+        "size": 6167,
+        "allocated_bytes": 8192,
+        "sha256": "9ac0f89de430ca2246e62f8fdfe8f2b09aff182b5e96bb47565864865161a995",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_judge_facts_v2.py",
+        "size": 6283,
+        "allocated_bytes": 8192,
+        "sha256": "d1f51aaa2084f30ff22dcc7db9fa6597289ae9538c4b33acee6f6ba9bf187e83",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_judge_identity.py",
+        "size": 7095,
+        "allocated_bytes": 8192,
+        "sha256": "07d072a4df745b6dad2aecff6196e366293fade986a7966aaacaea3f9f772ad2",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_judge_pairs_public.py",
+        "size": 13636,
+        "allocated_bytes": 16384,
+        "sha256": "1c90fee0e6776906ea0521dbb232d1ddcd0a47c7e3ec9f8310562cbea7d689cf",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_local_fact_review.py",
+        "size": 9084,
+        "allocated_bytes": 12288,
+        "sha256": "8ead46a9322c1eab7bc5eca26a2c2cf935fb0c46c0b4518c7643e072cdf7cdbd",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_local_paired_review.py",
+        "size": 6813,
+        "allocated_bytes": 8192,
+        "sha256": "23f1e6a47b1358a6ed2e953e0c893f301261b67c72396551ed5cbdb919cb3948",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_lyric_eval.py",
+        "size": 1404,
+        "allocated_bytes": 4096,
+        "sha256": "e60307c0985eca60d84edcc4b968f5c0e453604e11d93527d131e6af5b08fa0c",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_lyric_expand.py",
+        "size": 7170,
+        "allocated_bytes": 8192,
+        "sha256": "29947be321cdf53e8c5fdd50b49f8a20bd48b489a236b2073fc475d7c4b7a600",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_lyric_revision.py",
+        "size": 2082,
+        "allocated_bytes": 4096,
+        "sha256": "b07f56b9a2684e62a4a7a0f8c94ba8840779bdb26951851d5ed753f1aab6adc7",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_lyrics.py",
+        "size": 9183,
+        "allocated_bytes": 12288,
+        "sha256": "7d3270b164a061e0b2c42f590f1ab0014c5cc2e6cf47f0d53a52ac53a399914c",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_persona_audit.py",
+        "size": 5447,
+        "allocated_bytes": 8192,
+        "sha256": "749b5c046cae06a4cd4d52ff798617ad0ea37bdef56a63d6b0fef2d0036e7218",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_persona_metrics_v3.py",
+        "size": 11168,
+        "allocated_bytes": 12288,
+        "sha256": "bd099bdf0152ad2d60bf48c4f52d172d4e7b467e962b8a5d0efaef4a01b6d6c5",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_pipeline.py",
+        "size": 13705,
+        "allocated_bytes": 16384,
+        "sha256": "d065249db68493e0053c6d2b42afdc0c3abf71bdaad3e0926dd3f820dff428fc",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_prompt_lineage.py",
+        "size": 1376,
+        "allocated_bytes": 4096,
+        "sha256": "d6c8a3a2af4069d7f8256bd7edce5c30a183690d1652591c0c932427b6884a32",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_resilience.py",
+        "size": 6937,
+        "allocated_bytes": 8192,
+        "sha256": "3cb41fc29d343c7e377e7b04b24f466da4d441f63195ec0a9a394f12cfdf1f7e",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_review_pilot.py",
+        "size": 5378,
+        "allocated_bytes": 8192,
+        "sha256": "5c5c3f864a557ed61d16775baf11dbe6ade36f0fe4246de38e22a47256598147",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_review_repair.py",
+        "size": 2661,
+        "allocated_bytes": 4096,
+        "sha256": "138b093a09bd7ee306bea07241a3c12e92008b2cb39ee84b7afc142e3cfa0141",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_role_identity_evaluation.py",
+        "size": 4831,
+        "allocated_bytes": 8192,
+        "sha256": "27fdb365124d1d756c32cdadc629ca237bbd455920767fd52121a784a119ad56",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/test_source_eligibility.py",
+        "size": 9751,
+        "allocated_bytes": 12288,
+        "sha256": "d4672accc214e6c486b07afb4f07e0f09cc6daa1feae83f704ad533920a61102",
+        "reason": "Verified byte-exact code archive; unique old versions retained in legacy-persona-code.tar.gz",
+        "group": "legacy-persona-code",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".cache/dataset_size.json",
+        "size": 66,
+        "allocated_bytes": 4096,
+        "sha256": "d969df371f508f531590f37f81943a6857f824222f5e7026d783bf4d04e93cce",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".pytest_cache/CACHEDIR.TAG",
+        "size": 191,
+        "allocated_bytes": 4096,
+        "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".pytest_cache/README.md",
+        "size": 302,
+        "allocated_bytes": 4096,
+        "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".pytest_cache/.gitignore",
+        "size": 37,
+        "allocated_bytes": 4096,
+        "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".pytest_cache/v/cache/nodeids",
+        "size": 97441,
+        "allocated_bytes": 98304,
+        "sha256": "9844026ca1547936df99b945ae2b10385bd0acd128b2a43d71f3af250859a704",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".pytest_cache/v/cache/lastfailed",
+        "size": 12926,
+        "allocated_bytes": 16384,
+        "sha256": "6986dd24de8f956d122ef4cd2233c94764644f9756bc4da8a5e01593d40f583c",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/CACHEDIR.TAG",
+        "size": 43,
+        "allocated_bytes": 4096,
+        "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/.gitignore",
+        "size": 35,
+        "allocated_bytes": 4096,
+        "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/11321247143727957246",
+        "size": 252,
+        "allocated_bytes": 4096,
+        "sha256": "9167bef9d142440bf09747d6c6aab93c5233d041a097c3f6d13f90fe62c295d0",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/1921069454951753750",
+        "size": 396,
+        "allocated_bytes": 4096,
+        "sha256": "75e8090a3c62f53aa92cd9ba8ae7c62fb29a2a478916ec3a17f88109cbbb212e",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/1464262970129365265",
+        "size": 236,
+        "allocated_bytes": 4096,
+        "sha256": "5c2d64520c4a3e0f2fb483e66df5e0b56835791647433f0dfb926df02ae5798b",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/12363080566617418036",
+        "size": 1588,
+        "allocated_bytes": 4096,
+        "sha256": "ebdac4ef61116ed9d6294212aa115ec8320cf5841a0785caaca64e7c5fa2073d",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/11269171963119792264",
+        "size": 196,
+        "allocated_bytes": 4096,
+        "sha256": "ba09e80652630ecebf14774af190ef45ea1015d5bb5b37e7819cc3e02f61bf89",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/8908801641702564513",
+        "size": 756,
+        "allocated_bytes": 4096,
+        "sha256": "8b9e3f025e760000c8979479a10a3b8cc6fdcb9d523dd5350b69e0fdfe5337bd",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/6677902613835711499",
+        "size": 252,
+        "allocated_bytes": 4096,
+        "sha256": "1cfe02837add56e2c82a3371656627e9836122082ed50c69e03db4e23282f75e",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/12164642363069358050",
+        "size": 188,
+        "allocated_bytes": 4096,
+        "sha256": "e7f934a40ece632ed6c796b936e70a8118caba21f27bad4645b322c1749bf5b2",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/15534284041111510944",
+        "size": 412,
+        "allocated_bytes": 4096,
+        "sha256": "1b514400e0e5dfbc976184c6d73828a41f3824b44135f8075e6b54acce3a8833",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/11561530467007377678",
+        "size": 308,
+        "allocated_bytes": 4096,
+        "sha256": "3df961152173d811876bcb3d19c1f76644cd1659622005f9e3146b508bdd6c19",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/643490429133514167",
+        "size": 1252,
+        "allocated_bytes": 4096,
+        "sha256": "6d00f71cdfddfac1a9b3f80b8f0e010336da398d9993eb92bc03f9639c8efedc",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/7867066459126799203",
+        "size": 196,
+        "allocated_bytes": 4096,
+        "sha256": "bff3feb98747798971be599e34be95c26f0e69bc52e670341286583bf9c23202",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.10/16124990601542615591",
+        "size": 204,
+        "allocated_bytes": 4096,
+        "sha256": "bad2edaf20dfc4e12a44253ee288c0725976d1b94db1d7820962c3a3ab405b7e",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.9/13064778501688401597",
+        "size": 188,
+        "allocated_bytes": 4096,
+        "sha256": "a47ba793cc9897fb9e1979b62260b5187d1ac87f78be68728b5f1e14e3ddece1",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": ".ruff_cache/0.16.9/137064685257039932",
+        "size": 196,
+        "allocated_bytes": 4096,
+        "sha256": "fd3bc8b9228a06179f798d50ba047654e319baed5c453f37c7019a3bb8b6149b",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/adapters.py",
+        "size": 21906,
+        "allocated_bytes": 24576,
+        "sha256": "105593bf82821433ccba3f8409c81604c7f7a3a3ce96b7719b2caf0cd2aa9754",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/cli.py",
+        "size": 5302,
+        "allocated_bytes": 8192,
+        "sha256": "8c9006e0375f6faa03fcfe0a077b09f14d06baf38c084eeb190348df5e3ace5b",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/quality.py",
+        "size": 4759,
+        "allocated_bytes": 8192,
+        "sha256": "29610309bd7a0494483e298f32db08d0cbf2d6e4a6600fd24cc91184bb6a7ffc",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/lf_bridge.py",
+        "size": 809,
+        "allocated_bytes": 4096,
+        "sha256": "0d5b4723466fa119aea653df82705ec90f95e3fdb6892a179946a182ddf00af7",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/http_client.py",
+        "size": 5654,
+        "allocated_bytes": 8192,
+        "sha256": "2ee5f5c73217db4714d37f830ea03f2262ec1c57da593e4bc318d73480cd769e",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/engine.py",
+        "size": 10598,
+        "allocated_bytes": 12288,
+        "sha256": "e20f0bc70f6f0c20478f811011774f517b4180db7a6d3cc3f155ad4aff578fa6",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/validate_lf.py",
+        "size": 2929,
+        "allocated_bytes": 4096,
+        "sha256": "bd9f5f7c96c6c547b953dfd022f659f4ed6d0ff7094d7eec632551a664dae9ac",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/build.py",
+        "size": 30193,
+        "allocated_bytes": 32768,
+        "sha256": "d90ee4f7c1c56f15a5e40be1edff68f6cf87f82966deef9eb06a96fc0e61f378",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/store.py",
+        "size": 12035,
+        "allocated_bytes": 12288,
+        "sha256": "c631bb5a5cb08c51ce07c7c55d28a628a14771a72fbc8e3748b43f67fa2cc20d",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/token_worker.py",
+        "size": 801,
+        "allocated_bytes": 4096,
+        "sha256": "cca85e18dee44ea51578a079e8829a32e9140162c6197d270b9c2b0f6b4cff18",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/catalog.json",
+        "size": 4842,
+        "allocated_bytes": 8192,
+        "sha256": "080935c9f187a4a110ece9f8605d75ee77f5926d1af0655c5ce6aaaabc8d01e1",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/generator.py",
+        "size": 8961,
+        "allocated_bytes": 12288,
+        "sha256": "a23f3497c7c7eb646e7b1410fa85e96a6be6e061abfc25dad18ddbb64c59593e",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/__init__.py",
+        "size": 106,
+        "allocated_bytes": 4096,
+        "sha256": "2bbf3dbaf9de97fd99957b94635093be558a7f058dd403e69d83260a77b0ae9b",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/build/lib/persona_data/models.py",
+        "size": 7196,
+        "allocated_bytes": 8192,
+        "sha256": "bc6a5db3dcb7b40c987a4c66a217e21641e0a849e43ee44bcf61c018a675d8ef",
+        "reason": "Regenerable cache or build output",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/lyric_pilot.cpython-312.pyc",
+        "size": 36435,
+        "allocated_bytes": 36864,
+        "sha256": "772f8a22de5b0fbc7065e1ca1c37f5b78336c479a1c29321b8a77b4ed53d6252",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/quality.cpython-312.pyc",
+        "size": 9224,
+        "allocated_bytes": 12288,
+        "sha256": "4e498832df7f4f1d1d0ef2b1cb3e1e5e409dad91632dce5151d3a9f21c0468e2",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/lyrics.cpython-312.pyc",
+        "size": 12171,
+        "allocated_bytes": 12288,
+        "sha256": "ead809a53b4134829554554e7d6fe625ac028f60e7ffcbdc086348ad689ff1fd",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/__init__.cpython-312.pyc",
+        "size": 341,
+        "allocated_bytes": 4096,
+        "sha256": "59ed4fa29da0b919c70103d320e4488ac97260b60cda9f27143dced14067f9fe",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/cli.cpython-312.pyc",
+        "size": 15255,
+        "allocated_bytes": 16384,
+        "sha256": "048507c34626392a4bc1fa13674c3187860c4e3f47341fb1656ddb0f482013a8",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/lyric_eval.cpython-312.pyc",
+        "size": 3056,
+        "allocated_bytes": 4096,
+        "sha256": "af37a087b144d4061e1c1b474fd6ab93b712488d969021ab1787caa530c47f6f",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/lf_bridge.cpython-312.pyc",
+        "size": 1638,
+        "allocated_bytes": 4096,
+        "sha256": "354222c27de6a196a549cf567ad44c547cb1509d6f9c8c79181a02aed7bb3acd",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/http_client.cpython-312.pyc",
+        "size": 8443,
+        "allocated_bytes": 12288,
+        "sha256": "1fb439d1031cafbbb72c9d42d8d8857ea2a6f6a5d9b42ae049c96a2f4baf6fee",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/lyric_expand.cpython-312.pyc",
+        "size": 35941,
+        "allocated_bytes": 36864,
+        "sha256": "727d4adddcee1c83fc4fe45e7210c19c96704cf31cac70306afb9c26f128479f",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/models.cpython-312.pyc",
+        "size": 14155,
+        "allocated_bytes": 16384,
+        "sha256": "567d6465adeb3679742d6958ea40dc66466b9939cb2dc71bdfd63ce0159e39f4",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/generator.cpython-312.pyc",
+        "size": 13993,
+        "allocated_bytes": 16384,
+        "sha256": "6059c4023cd05df3eea23ccdf191a4bc219f506b05b5cf92fe28c1ac228f5755",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/lyric_revision.cpython-312.pyc",
+        "size": 3727,
+        "allocated_bytes": 4096,
+        "sha256": "99d0596a235a6995d75cc9d2b00f4a4ae93dff1722c0873104c13d5ff2a1d693",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/adapters.cpython-312.pyc",
+        "size": 39149,
+        "allocated_bytes": 40960,
+        "sha256": "f56d9211272641cb49f912558fd80b31086221d5ccd2d14c7c939af9bcfd1454",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/pilot.cpython-312.pyc",
+        "size": 40987,
+        "allocated_bytes": 45056,
+        "sha256": "5c30a3a31e4b65cc36ebfd92e747330505b241da703717329480d6143f1cf4c8",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/build.cpython-312.pyc",
+        "size": 39551,
+        "allocated_bytes": 40960,
+        "sha256": "e56e2cf3387e1b35cde5113ef2b0c772c625f8f68af4603d70c5b22c4f2b2d91",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/engine.cpython-312.pyc",
+        "size": 14637,
+        "allocated_bytes": 16384,
+        "sha256": "5555d2a4fd7757e940cc37994ae0e5ed1286220faac21aa6531a85b61b3d4242",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/src/persona_data/__pycache__/store.cpython-312.pyc",
+        "size": 17698,
+        "allocated_bytes": 20480,
+        "sha256": "580a43ca1a2c92f45d82a530e3e4a4dc2a2aaada3c9f6907beaef742346a701e",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/scripts/__pycache__/restore_snapshot.cpython-312.pyc",
+        "size": 6095,
+        "allocated_bytes": 8192,
+        "sha256": "0113bcc5595612dcb23783e74041bd4607dfbef3fadd93265159d94c8af0922f",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_review_pilot.cpython-312-pytest-9.1.1.pyc",
+        "size": 24704,
+        "allocated_bytes": 28672,
+        "sha256": "1a2983b4af833b443193dd8d6fbd836503fba16a01bd17f4cffca83e1f6fba84",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_lyric_eval.cpython-312-pytest-9.1.1.pyc",
+        "size": 4133,
+        "allocated_bytes": 8192,
+        "sha256": "0b1b8205292f3f0c523ca1a077ce889ade78be0b2a865537b650e4164a56244e",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_prompt_lineage.cpython-312-pytest-9.1.1.pyc",
+        "size": 9664,
+        "allocated_bytes": 12288,
+        "sha256": "69e7d1f252d5b35f4901b4cd6d16667a5bd49132b419d29468226bd9064e0cb3",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_review_repair.cpython-312-pytest-9.1.1.pyc",
+        "size": 9379,
+        "allocated_bytes": 12288,
+        "sha256": "7975b1a6ada54506d0ec111a9e3401c9ee2d6961a9570c067d8923db1bed184f",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_lyric_revision.cpython-312-pytest-9.1.1.pyc",
+        "size": 8452,
+        "allocated_bytes": 12288,
+        "sha256": "b2c2c8ec2db01e0d7f11c678f1544e525dbbdf828a78aed2ae37fa3ca43bc3c7",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_evidence.cpython-312-pytest-9.1.1.pyc",
+        "size": 8564,
+        "allocated_bytes": 12288,
+        "sha256": "9e77c267b998aa4abc3b5b4bb55ac07784cd503af802cb191bc6295691cb4005",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_generation_resilience.cpython-312-pytest-9.1.1.pyc",
+        "size": 10607,
+        "allocated_bytes": 12288,
+        "sha256": "5936d08731421e8b258974652b90056f3b936ee5e9d245d1427811f74922ea78",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_pipeline.cpython-312-pytest-9.1.1.pyc",
+        "size": 48279,
+        "allocated_bytes": 49152,
+        "sha256": "ead570b8891ec7ca37b4d9d79336511c99f5bade81743f9b69303429d0e98a37",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_export_validation.cpython-312-pytest-9.1.1.pyc",
+        "size": 3703,
+        "allocated_bytes": 4096,
+        "sha256": "8e5ac616a2a842b7622fddc94c45cd77e43488f831fefbdfdb657dbbe265e642",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_lyric_expand.cpython-312-pytest-9.1.1.pyc",
+        "size": 25303,
+        "allocated_bytes": 28672,
+        "sha256": "b2c1acaf07c2149a4b2c277c7e8d17495bdd4bc041e3d0b072a6abd67a85b556",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_config_paths.cpython-312-pytest-9.1.1.pyc",
+        "size": 3899,
+        "allocated_bytes": 4096,
+        "sha256": "4982ccfef9e146bcbec20c82ba1e579587d2a2af1b9d8ab038c48cd256fa76fe",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_resilience.cpython-312-pytest-9.1.1.pyc",
+        "size": 23071,
+        "allocated_bytes": 24576,
+        "sha256": "c40078fb4b7b3e366fe923a5bc735adbcde4e7b494ca9b52cb4dcc539eb7c7a7",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/workspace/publish/persona-loom/tool/tests/__pycache__/test_lyrics.cpython-312-pytest-9.1.1.pyc",
+        "size": 30920,
+        "allocated_bytes": 32768,
+        "sha256": "d2b67bc27007a422fb9d030bd347458ec53113c862f2a3629a52b5a7829f20ba",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/validate_lf.cpython-312.pyc",
+        "size": 3726,
+        "allocated_bytes": 4096,
+        "sha256": "f17b414806a44ccb18dc6412ee2263fb48c4716fd934ce9d5b79085ba7df7254",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/lyric_pilot.cpython-312.pyc",
+        "size": 36351,
+        "allocated_bytes": 36864,
+        "sha256": "f1056c48ffb49b533a425e39f984b99a3aa89646dfc2411e18e93cc43e346d27",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/curriculum.cpython-312.pyc",
+        "size": 58120,
+        "allocated_bytes": 61440,
+        "sha256": "d232533e5e289d0195f1743526e18fcfc9dfc963bd810eabe1615fd329b8d227",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/quality.cpython-312.pyc",
+        "size": 9188,
+        "allocated_bytes": 12288,
+        "sha256": "1257fd9ecd87fdba76506744c3b750b80f6361281e2c2bd18a248e5f86b2e796",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/http.cpython-312.pyc",
+        "size": 8400,
+        "allocated_bytes": 12288,
+        "sha256": "daa7bbfe9f4ae9a6a9a2be8cf15b28ba25cb3bd26ceb090b96c59fee960b982e",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/token_worker.cpython-312.pyc",
+        "size": 1426,
+        "allocated_bytes": 4096,
+        "sha256": "02828c64bd327a912798cc78595b8d6a8a27f38d4a5619fb2921c7d1f1111f96",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/lyrics.cpython-312.pyc",
+        "size": 12135,
+        "allocated_bytes": 12288,
+        "sha256": "075a4254455bcdff23742e18b0fb477c4e2e9bf098574357f5fe909bbd714359",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/__init__.cpython-312.pyc",
+        "size": 305,
+        "allocated_bytes": 4096,
+        "sha256": "a4d7f54649a87a7199360a61e5641473b07469168acd40073f6c4737b98eca93",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/cli.cpython-312.pyc",
+        "size": 16148,
+        "allocated_bytes": 16384,
+        "sha256": "05bdf5b731484bd0f804beb1d12a2398cc567e9caa40eba171bf97b43d3b677d",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/lyric_eval.cpython-312.pyc",
+        "size": 3020,
+        "allocated_bytes": 4096,
+        "sha256": "3d5907da4e60c50ad5e0834c53a47231a70a611f1b08368047773d828bb6e767",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/lf_bridge.cpython-312.pyc",
+        "size": 1602,
+        "allocated_bytes": 4096,
+        "sha256": "ab83307c691a49b1640936e4349e97ff408854e3bb9a020eb5400ce8f41df9fa",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/http_client.cpython-312.pyc",
+        "size": 8407,
+        "allocated_bytes": 12288,
+        "sha256": "a68c5ee7b440d9730e2d8a8ca2544cce7635f7d92e6084fcd981d49bf895937a",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/lyric_expand.cpython-312.pyc",
+        "size": 35905,
+        "allocated_bytes": 36864,
+        "sha256": "3f8b4c521662305cc0f09b55d95b48eedda2c4753df7562804ee012aafdb9fd6",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/models.cpython-312.pyc",
+        "size": 14119,
+        "allocated_bytes": 16384,
+        "sha256": "1656519599d164ec02fb3619152510a9e9eb22cf5aaf8de001578fe786bc2c24",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/generator.cpython-312.pyc",
+        "size": 13957,
+        "allocated_bytes": 16384,
+        "sha256": "f7576b0a4f8427c67dc6ddaf990fc6e65020885acc5242883001dfa152264817",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/lyric_revision.cpython-312.pyc",
+        "size": 3691,
+        "allocated_bytes": 4096,
+        "sha256": "2013986cdc4c37b6c8270e7e71b083814a35368ecd4e0868b1f719e562f612f0",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/persona_audit.cpython-312.pyc",
+        "size": 34947,
+        "allocated_bytes": 36864,
+        "sha256": "6f953604f9cf2200ec2b185ee121329030b3f0c90a6f432f31a826dca0d15a09",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/source_eligibility.cpython-312.pyc",
+        "size": 12251,
+        "allocated_bytes": 12288,
+        "sha256": "9d500edc22e3bd574b3e3b3299f2393cbbc961041626a2686c583224abad011e",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/adapters.cpython-312.pyc",
+        "size": 39065,
+        "allocated_bytes": 40960,
+        "sha256": "5362cf8aaeb3533bd3a3365450d778e030dc1a9e4e0849dcc5110647c69d4a4a",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/pilot.cpython-312.pyc",
+        "size": 40951,
+        "allocated_bytes": 40960,
+        "sha256": "021acd3051c187458d2f4d82049ef3d0e9c9e09c8ca828b2ca524cea7ad13062",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/experiment_store.cpython-312.pyc",
+        "size": 57639,
+        "allocated_bytes": 61440,
+        "sha256": "9e73734faf0f107d7a06ba97dfb003dece6a175f83d84bbab2dea9509c7f0080",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/build.cpython-312.pyc",
+        "size": 39750,
+        "allocated_bytes": 40960,
+        "sha256": "c456428bdbf34abdeacc99dd0110d609f8c324126e8bfa9c56c2de79741961bc",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/engine.cpython-312.pyc",
+        "size": 14601,
+        "allocated_bytes": 16384,
+        "sha256": "841b89a8eeefa07c29c952509f48dd1da51a2335dc90b91322146fcf841d3a10",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/persona_metrics_v3.cpython-312.pyc",
+        "size": 26342,
+        "allocated_bytes": 28672,
+        "sha256": "921e96c88f7f9e5a47312adf0363bb41bd80c6cb3ddc3388b030062453fef3aa",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/src/persona_data/__pycache__/store.cpython-312.pyc",
+        "size": 19942,
+        "allocated_bytes": 20480,
+        "sha256": "d0db4c6769916d1ef7b9873f851d8594a97bd4c79f8127f9b14513d4eb666a29",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_persona_metrics_v3.cpython-312-pytest-9.1.1.pyc",
+        "size": 37198,
+        "allocated_bytes": 40960,
+        "sha256": "d3780b323be29a250eb880706d64c0e59044f1bace71ceac214bc582e74c71d1",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_judge_facts.cpython-312-pytest-9.1.1.pyc",
+        "size": 21025,
+        "allocated_bytes": 24576,
+        "sha256": "f113d0ca6622df6224cb128f861049ece18b1b28161e453a4e3abc647656634b",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_judge_pairs_public.cpython-312-pytest-9.1.1.pyc",
+        "size": 44011,
+        "allocated_bytes": 45056,
+        "sha256": "7532a73acdfa93c000f6ed4c34f0f8addace5a201ebb7108e4707b170c807579",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_coverage_audit.cpython-312-pytest-9.1.1.pyc",
+        "size": 11132,
+        "allocated_bytes": 12288,
+        "sha256": "bbe5ce7125943133bddeccda500079f75d01b9e63c7d8218a0c055ca17aac1d1",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_local_paired_review.cpython-312-pytest-9.1.1.pyc",
+        "size": 18104,
+        "allocated_bytes": 20480,
+        "sha256": "64001d3a92f7e05ea027ed19c09961903fbf49948077f8b76cff8533b5ab66e2",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_review_pilot.cpython-312-pytest-9.1.1.pyc",
+        "size": 24668,
+        "allocated_bytes": 28672,
+        "sha256": "4ede28d7b6025d7566858043f27c07b15a74c5a030332204ef78d654178a8d6e",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_experiment_store.cpython-312-pytest-9.1.1.pyc",
+        "size": 75823,
+        "allocated_bytes": 77824,
+        "sha256": "4657267ca6a555f3c4332f58189d8cd598a3815e3a791c315dbfffa12988ec8c",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_curriculum.cpython-312-pytest-9.1.1.pyc",
+        "size": 87962,
+        "allocated_bytes": 90112,
+        "sha256": "c505cfe9ddc45e6e465bc31e38b3fe7292cf931d82754a3926169e509403216b",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_judge_facts_v2.cpython-312-pytest-9.1.1.pyc",
+        "size": 18074,
+        "allocated_bytes": 20480,
+        "sha256": "9921f6c75ed19bd7bcca4169d4bfcf9a26ab17b2b4bd8a7d046919305a72a9cf",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_local_fact_review.cpython-312-pytest-9.1.1.pyc",
+        "size": 21271,
+        "allocated_bytes": 24576,
+        "sha256": "f53df86cb5934a9c9a38ba48fb76156dcb4fb1376d0e2479f677b6dce20e2e68",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_lyric_eval.cpython-312-pytest-9.1.1.pyc",
+        "size": 4097,
+        "allocated_bytes": 8192,
+        "sha256": "58fe4afe40f7a3a7b402147182bb0a6a7871ab67de020dd61849a68ccd28f893",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_prompt_lineage.cpython-312-pytest-9.1.1.pyc",
+        "size": 9628,
+        "allocated_bytes": 12288,
+        "sha256": "e575acd6fc31eae8bff61e751927dbdc5255dbdbbc1d0f739b0eb20510551487",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_review_repair.cpython-312-pytest-9.1.1.pyc",
+        "size": 9343,
+        "allocated_bytes": 12288,
+        "sha256": "294b844ff55c6c0a89378437578832a77ca2f6bbf8661d2435686dafe2ad1b4f",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_lyric_revision.cpython-312-pytest-9.1.1.pyc",
+        "size": 8416,
+        "allocated_bytes": 12288,
+        "sha256": "49cbe09f681728fc7a3e44a5b628187d5eb5f227a03de967e6185c07381008aa",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_evidence.cpython-312-pytest-9.1.1.pyc",
+        "size": 8528,
+        "allocated_bytes": 12288,
+        "sha256": "6d248de3038504cbe513bd6304bcc375f8dad4f2d99cc71a9e01552c2161554a",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_generation_resilience.cpython-312-pytest-9.1.1.pyc",
+        "size": 10571,
+        "allocated_bytes": 12288,
+        "sha256": "19f9a96cd180b57ef1389deabc65f6f22cb32b4e00f77813fb09d2bf439e8406",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_pipeline.cpython-312-pytest-9.1.1.pyc",
+        "size": 48243,
+        "allocated_bytes": 49152,
+        "sha256": "39fb5c6aedef4a72f98fe8f903c3f7fddcb998dec93e7f818e64cd7c37f48a5a",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_export_validation.cpython-312-pytest-9.1.1.pyc",
+        "size": 3667,
+        "allocated_bytes": 4096,
+        "sha256": "739fee101a111b07e12c0ff7a30b7c6b58cfd4ef4162b52d3e488e74b9343a2e",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_source_eligibility.cpython-312-pytest-9.1.1.pyc",
+        "size": 43277,
+        "allocated_bytes": 45056,
+        "sha256": "7185353db96df0b87e769458ad899a7a9394b0f86090992ae3740bb3b6dddcce",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_persona_audit.cpython-312-pytest-9.1.1.pyc",
+        "size": 20581,
+        "allocated_bytes": 24576,
+        "sha256": "bc266628c30cf1051550673947d20701005ddbe265ba74302be09e8edac5c476",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_lyric_expand.cpython-312-pytest-9.1.1.pyc",
+        "size": 25267,
+        "allocated_bytes": 28672,
+        "sha256": "38a108cfab22e1a614400a40c6e5aa05c4211f9d12cbbc402ecc200e9863722f",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_config_paths.cpython-312-pytest-9.1.1.pyc",
+        "size": 3863,
+        "allocated_bytes": 4096,
+        "sha256": "8c021f3a543a55e2beb21ad69c7a13fcd23acdf712726f12c7ad884b1053c5a9",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_judge_identity.cpython-312-pytest-9.1.1.pyc",
+        "size": 20824,
+        "allocated_bytes": 24576,
+        "sha256": "e45be5e99a995779289a1ffa52682d5b4756e9e00aeac8c1a7613e1ae62119c6",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_resilience.cpython-312-pytest-9.1.1.pyc",
+        "size": 23035,
+        "allocated_bytes": 24576,
+        "sha256": "450f58624789e3a27ab47790410d26021d157666f9a2a6f471da257f78b9f7e1",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_role_identity_evaluation.cpython-312-pytest-9.1.1.pyc",
+        "size": 18874,
+        "allocated_bytes": 20480,
+        "sha256": "f285e498d231ca3e4ab7fb98e9573b161e5d2f9114033c72d7c8d0c1004d658c",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      },
+      {
+        "path": "archive/legacy-persona-data/tests/__pycache__/test_lyrics.cpython-312-pytest-9.1.1.pyc",
+        "size": 30884,
+        "allocated_bytes": 32768,
+        "sha256": "5293ca0c0b85bd13d612b4830c0a486c461720565523897037b3e72c80f8a84e",
+        "reason": "Compiled Python cache for archived source",
+        "group": "cache",
+        "recoverable": true,
+        "preexisting": true
+      }
+    ],
+    "file_count": 227,
+    "bytes": 28280728448,
+    "allocated_bytes": 28281339904,
+    "preexisting_bytes": 10123489072,
+    "preexisting_allocated_bytes": 10124042240,
+    "groups": {
+      "legacy-merged": 5,
+      "rebuild-temporary": 5,
+      "new-smoke-merged": 5,
+      "isekaijoucho-smoke-01": 6,
+      "starlamp-smoke-01": 6,
+      "general-qa-smoke-01": 6,
+      "isekaijoucho-smoke-02": 6,
+      "legacy-persona-code": 69,
+      "cache": 119
+    }
+  },
+  "legacy_merge_rebuild": "legacy-rebuild.yaml",
+  "new_merge_recipe": "llama-factory/project/configs/inference/layout-export.yaml",
+  "optimizer_resume": "Unavailable for pruned completed smoke runs; retained adapters remain loadable.",
+  "historical_manifests": "Original manifests intentionally retain now-missing files. Consult this sidecar; do not label pruned directories intact."
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "tensor_count": 723,
+  "exact_tensor_equality": true,
+  "base_sha256": "0c3129c0a669beca441f07bfa7bb9e11c7d9ee626419e40195a95de7461feee7",
+  "adapter_sha256": "452e1234574f446c4ca682337fc51f5af90fcc2164c684cc3c1faec593089eb6",
+  "base": "models/Qwen3.5-4B",
+  "adapter": "artifacts/legacy-posttrain/runs/isekaijoucho-smoke-02/adapter",
+  "recipe": "archive/migration/20261018-layout/legacy-rebuild.yaml",
+  "old_weights": {
+    "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00001-of-00005.safetensors": "af9f9ba42d03156b96f8572fa9fd2c84e38dabad63020ec3fa5981e4d118b92a",
+    "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00002-of-00005.safetensors": "92b807d04ac5709c82593c68ea6040a8d203eaf0098b1e059b87f2b3b9e4186f",
+    "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00003-of-00005.safetensors": "1cef0d470a3eb495ee1e553660f458019e81ecca8f585e1f80598bbb6f416496",
+    "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00004-of-00005.safetensors": "07550195afa15220fcd1db1d24a2597fdb0776b7e34a6e0ce38dde3bef29cd50",
+    "artifacts/legacy-posttrain/exports/isekaijoucho-merged-smoke/model/model-00005-of-00005.safetensors": "41da4c9a64d9bb20557cc9490e8d09b046a7a5022da7fa74af3e64edc93d3070"
+  },
+  "rebuilt_weights": {
+    "artifacts/rebuild/legacy-merged/model-00001-of-00005.safetensors": "af9f9ba42d03156b96f8572fa9fd2c84e38dabad63020ec3fa5981e4d118b92a",
+    "artifacts/rebuild/legacy-merged/model-00002-of-00005.safetensors": "92b807d04ac5709c82593c68ea6040a8d203eaf0098b1e059b87f2b3b9e4186f",
+    "artifacts/rebuild/legacy-merged/model-00003-of-00005.safetensors": "1cef0d470a3eb495ee1e553660f458019e81ecca8f585e1f80598bbb6f416496",
+    "artifacts/rebuild/legacy-merged/model-00004-of-00005.safetensors": "07550195afa15220fcd1db1d24a2597fdb0776b7e34a6e0ce38dde3bef29cd50",
+    "artifacts/rebuild/legacy-merged/model-00005-of-00005.safetensors": "41da4c9a64d9bb20557cc9490e8d09b046a7a5022da7fa74af3e64edc93d3070"
+  },
+  "recipe_note": "Paths translated only; original merge-request.json unchanged."
+}
