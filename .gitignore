@@ -190,3 +190,34 @@ lab/hf-release-staging/
 
 # Isolated local helper and evaluation environments
 .venv-*/
+
+# Shared assets belong in the sibling llm-training-assets directory
+/llm-training-assets/
+/artifacts/
+/archive/
+/workspace/
+/tmp/
+/icl_inference_output/
+
+# Model weights and disposable optimizer state
+*.safetensors
+*.gguf
+*.ggml
+pytorch_model*.bin
+adapter_model*.bin
+optimizer*.pt
+scheduler*.pt
+rng_state*.pth
+
+# Local configuration and SQLite runtime sidecars (keep dataset databases)
+*.local.yaml
+*.local.yml
+*.local.json
+*.sqlite*-wal
+*.sqlite*-shm
+*.sqlite*-journal
+
+# Local environments and credentials
+auth.json
+cookies*.txt
+*:Zone.Identifier

@@ -8,3 +8,14 @@ __pycache__/
 build/
 dist/
 *.log
+
+# Local helper environments and generated assets
+*.local.yml
+*.local.json
+.venv-*/
+/.cache/
+/models/
+/artifacts/
+/archive/
+/workspace/
+/tmp/
