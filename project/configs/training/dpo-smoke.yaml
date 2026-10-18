@@ -1,4 +1,4 @@
-model_name_or_path: ../models/Qwen3.5-4B
+model_name_or_path: ../../llm-training-assets/models/Qwen3.5-4B
 stage: dpo
 do_train: true
 finetuning_type: lora
@@ -10,9 +10,9 @@ freeze_vision_tower: true
 freeze_multi_modal_projector: true
 template: qwen3_5
 enable_thinking: false
-dataset_dir: ../artifacts/datasets/layout-dpo
+dataset_dir: ../../llm-training-assets/artifacts/datasets/layout-dpo
 dataset: train
-tokenized_path: ../artifacts/prepared/layout-dpo-02/tokenized
+tokenized_path: ../../llm-training-assets/artifacts/prepared/layout-dpo-02/tokenized
 cutoff_len: 2048
 train_on_prompt: false
 packing: false
@@ -37,15 +37,15 @@ save_strategy: steps
 save_steps: 1
 save_total_limit: 3
 eval_strategy: 'no'
-output_dir: ../artifacts/runs/layout-dpo-02/adapter
+output_dir: ../../llm-training-assets/artifacts/runs/layout-dpo-02/adapter
 dataloader_num_workers: 0
 preprocessing_num_workers: 1
 plot_loss: false
 quantization_bit: 4
 quantization_method: bnb
-adapter_name_or_path: ../artifacts/runs/layout-sft/adapter
-ref_model: ../models/Qwen3.5-4B
-ref_model_adapters: ../artifacts/runs/layout-sft/adapter
+adapter_name_or_path: ../../llm-training-assets/artifacts/runs/layout-sft/adapter
+ref_model: ../../llm-training-assets/models/Qwen3.5-4B
+ref_model_adapters: ../../llm-training-assets/artifacts/runs/layout-sft/adapter
 ref_model_quantization_bit: 4
 create_new_adapter: false
 pref_beta: 0.1

@@ -9,6 +9,8 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .paths import recorded_path
+
 _GPU_LOCK_FD = None
 
 
@@ -27,11 +29,11 @@ def file_hash(path):
 
 
 def read_json(path):
-    return json.loads(Path(path).read_text(encoding="utf-8"))
+    return json.loads(recorded_path(path).read_text(encoding="utf-8"))
 
 
 def read_rows(path):
-    path = Path(path)
+    path = recorded_path(path)
     if path.suffix == ".json":
         value = read_json(path)
         if isinstance(value, dict) and "cases" in value:
@@ -77,7 +79,7 @@ def seal(path, metadata):
 
 
 def verify(path):
-    path = Path(path)
+    path = recorded_path(path)
     manifest = read_json(path / "manifest.json")
     if digest(manifest["files"]) != manifest["content_sha256"]:
         raise ValueError("Invalid manifest digest")

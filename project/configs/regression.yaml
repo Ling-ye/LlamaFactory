@@ -1,5 +1,5 @@
 name: regression
-workspace: ../../../artifacts
+workspace: ../../../../llm-training-assets/artifacts
 runtime: runtime.yaml
 data: data/general-qa.yaml
 training: training/smoke.yaml

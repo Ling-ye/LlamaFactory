@@ -1,5 +1,5 @@
 name: starlamp
-workspace: ../../../artifacts
+workspace: ../../../../llm-training-assets/artifacts
 runtime: runtime.yaml
 data: data/starlamp.yaml
 training: training/starlamp.yaml

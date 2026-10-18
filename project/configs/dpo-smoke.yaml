@@ -1,5 +1,5 @@
 name: dpo-smoke
-workspace: ../../../artifacts
+workspace: ../../../../llm-training-assets/artifacts
 runtime: runtime.yaml
 data: data/dpo-smoke.yaml
 training: training/dpo-smoke.yaml

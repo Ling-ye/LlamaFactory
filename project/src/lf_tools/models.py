@@ -4,10 +4,11 @@
 from pathlib import Path
 
 from .artifacts import digest, read_json, tree_hashes
+from .paths import recorded_path
 
 
 def identify(path):
-    path = Path(path)
+    path = recorded_path(path)
     if not (path / "config.json").is_file():
         raise ValueError(f"Missing model config: {path}")
     files = tree_hashes(path, {".safetensors", ".bin", ".json", ".model", ".jinja", ".txt"})
@@ -17,7 +18,7 @@ def identify(path):
 
 
 def identify_adapter(path, base=None):
-    path = Path(path)
+    path = recorded_path(path)
     config = read_json(path / "adapter_config.json")
     files = tree_hashes(path, {".safetensors", ".bin", ".json"})
     if not any(p in files for p in ("adapter_model.safetensors", "adapter_model.bin")):
@@ -27,7 +28,7 @@ def identify_adapter(path, base=None):
         if receipt.exists():
             if read_json(receipt)["base_sha256"] != base["sha256"]:
                 raise ValueError("Adapter belongs to a different base model")
-        elif Path(config.get("base_model_name_or_path", "")).resolve() != Path(base["path"]).resolve():
+        elif recorded_path(config.get("base_model_name_or_path", "")).resolve() != recorded_path(base["path"]).resolve():
             raise ValueError("Legacy adapter base path does not match; register the correct base first")
     return {"path": str(path.absolute()), "sha256": digest(files), "files": files}
 

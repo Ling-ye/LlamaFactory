@@ -1,4 +1,4 @@
-model_name_or_path: ../models/Qwen3.5-4B
+model_name_or_path: ../../llm-training-assets/models/Qwen3.5-4B
 stage: sft
 do_train: true
 finetuning_type: lora
@@ -10,9 +10,9 @@ freeze_vision_tower: true
 freeze_multi_modal_projector: true
 template: qwen3_5
 enable_thinking: false
-dataset_dir: ../artifacts/datasets/layout-sft
+dataset_dir: ../../llm-training-assets/artifacts/datasets/layout-sft
 dataset: train
-tokenized_path: ../artifacts/prepared/layout-sft/tokenized
+tokenized_path: ../../llm-training-assets/artifacts/prepared/layout-sft/tokenized
 cutoff_len: 2048
 train_on_prompt: false
 packing: false
@@ -37,7 +37,7 @@ save_strategy: steps
 save_steps: 50
 save_total_limit: 3
 eval_strategy: 'no'
-output_dir: ../artifacts/runs/isekaijoucho-qlora/adapter
+output_dir: ../../llm-training-assets/artifacts/runs/isekaijoucho-qlora/adapter
 dataloader_num_workers: 0
 preprocessing_num_workers: 1
 plot_loss: false

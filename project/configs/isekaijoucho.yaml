@@ -1,5 +1,5 @@
 name: isekaijoucho
-workspace: ../../../artifacts
+workspace: ../../../../llm-training-assets/artifacts
 runtime: runtime.yaml
 data: data/isekaijoucho.yaml
 training: training/sft.yaml

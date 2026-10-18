@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "workspace": "llm-training",
+  "assets_root": "llm-training-assets",
+  "moves": [
+    {
+      "old": "llm-training/models",
+      "new": "llm-training-assets/models"
+    },
+    {
+      "old": "llm-training/artifacts",
+      "new": "llm-training-assets/artifacts"
+    },
+    {
+      "old": "llm-training/archive",
+      "new": "llm-training-assets/archive"
+    }
+  ],
+  "files": 19561,
+  "regular_file_bytes": 54688449663,
+  "same_filesystem_rename": true,
+  "metadata_inventory_identical_before_link_repair": true,
+  "protected_files_verified": 603,
+  "current_model_symlink": {
+    "before": "llm-training/artifacts/legacy-saves/qwen35-4b/isekaijoucho-persona-experience-v4-c611a8a-bf16/checkpoint-100",
+    "after": "isekaijoucho-persona-experience-v4-c611a8a-bf16/checkpoint-100"
+  },
+  "mlflow_rows_rebased": 15,
+  "mlflow_backup": "mlflow-before.sqlite",
+  "historical_manifests_rewritten": false,
+  "current_model": "v9",
+  "v10": "paused",
+  "paths_relative_to": "projects_directory",
+  "validation": {
+    "passed": true,
+    "old_dataset_validated": true,
+    "old_sealed_records_verified": true,
+    "legacy_adapter_base_match": true,
+    "model_state_hashes_verified": true,
+    "v9_native_chat_exit_code": 0,
+    "v10": "paused",
+    "root_entries": [
+      "llama-factory",
+      "persona-loom"
+    ],
+    "ignored_path_settings_updated": [
+      "llama-factory/llamaboard_cache/user_config.yaml"
+    ]
+  },
+  "tests": {
+    "persona": {
+      "tests": 599,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 12,
+      "passed": 587
+    },
+    "helper": {
+      "tests": 67,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 67
+    }
+  }
+}
